@@ -2,7 +2,7 @@ html,
 body {
     background-color: #fff;
     font-size: 0.9rem;
-    color: #797979;
+    color: #464646;
     width: 100%;
     padding: 0;
     margin-left: 0;
@@ -615,14 +615,14 @@ input::-ms-input-placeholder {
     text-align: justify;
 }
 
+.profile_photo {
+    margin-right: 10px;
+}
+
 .vcenter {
     display: inline-block;
     vertical-align: middle;
     float: none;
-}
-
-.profile_photo {
-    margin-right: 10px;
 }
 
 /*footer section*/

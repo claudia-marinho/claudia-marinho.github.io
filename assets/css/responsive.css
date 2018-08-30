@@ -45,6 +45,11 @@
         font-size: 90%;
     }
 
+    .profile_photo {
+        margin-right: 10px;
+        width:25%;
+    }
+
     h3 {
         font-size: 1.575rem;
         line-height: 2rem;
@@ -105,6 +110,13 @@
     html {
         font-size: 80%;
     }
+
+    .profile_photo {
+        margin-right: 10px;
+        width:35%;
+    }
+
+
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
         z-index: 999;
         border-color: transparent;
@@ -221,24 +233,35 @@
         text-align: center;
     }
 
+    .home .dev-name {
+        font-size: 55px;
+    }
+
 }
 
 
 
 /* Landscape phones and smaller */
 @media (max-width: 479px) {
-    html {
-        font-size: 65%;
+    .profile_photo {
+        margin-right: 10px;
+        width:50%;
     }
+
     .btn-md {
         padding: 10px 10px 10px 0px;
     }
+
     .about_skill_area .about_tabe .about_tabe_menu li a {
         width: 75px;
     }
 
     .home .dev-name {
-        font-size: 50px;
+        font-size: 40px;
+    }
+
+    .home .dev-desc {
+        font-size: 15px;
     }
 
 }
@@ -249,14 +272,17 @@
 
 @media (max-width: 320px) {
 
-
-    html {
-        font-size: 60.5%;
-    }
     .about_skill_area .about_tabe .about_tabe_menu li a {
         width: 60px;
     }
 
+    .home .dev-name {
+        font-size: 32px;
+    }
+
+    .home .dev-desc {
+        font-size: 12px;
+    }
 
 }
 
