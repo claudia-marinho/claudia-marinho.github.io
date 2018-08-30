@@ -470,7 +470,7 @@ input::-ms-input-placeholder {
     z-index: 300;
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    background-color:rgba(52, 52, 52, 0.8);
+    background-color:rgba(52, 52, 52, 0.9);
     -webkit-transition:all .3s;
     -moz-transition:all .3s;
     transition:all .3s;
@@ -489,7 +489,7 @@ input::-ms-input-placeholder {
     margin: 15px auto;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-    color: 	#ff7200;
+    color: #ff7200;
     background: transparent;
 }
 
@@ -572,8 +572,10 @@ input::-ms-input-placeholder {
 }
 
 .home .dev-desc {
-    font-weight: bold;
     text-shadow: 2px 2px 3px #000;
+    color: #fff;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 .home .main_home {
@@ -617,36 +619,31 @@ input::-ms-input-placeholder {
     margin-right:5px;
     margin-top:10px;
 }
+
 .footer .flowus a i:hover{
     color:#ff7200;
     border:1px solid #ff7200;
 }
 
-.contact-me a {
-    color:#ff7200;
-    text-transform: lowercase;
-
-}
-
 .copyright_text{
     text-align: left;
 }
+
 .copyright_text p{
     color:#fff;
     line-height: 25px;
     max-width: 100%;
     padding-top: 15px;
 }
+
 .copyright_text p i{
     padding:0px 10px;
     color:#ff0000;
 }
+
 .copyright_text p a{
-    padding:0px 10px;
     color:#ff7200;
 }
-
-
 
 /* scrollup */
 
