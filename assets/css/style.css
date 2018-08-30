@@ -1,16 +1,7 @@
-
-
-/*
-Author: Bootstrapthemes
-Author URI: http://bootstrapthemes.co
-*/
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
 html,
 body {
     background-color: #fff;
-    font-size: 0.875rem;
+    font-size: 0.9rem;
     color: #797979;
     width: 100%;
     padding: 0;
@@ -20,13 +11,34 @@ body {
     width:100%;
     font-family: 'Raleway', sans-serif;
 }
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
 .preloader {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #fefefe;
+    background-color: #000;
     z-index: 99999;
     height: 100%;
     width: 100%;
@@ -88,7 +100,7 @@ a{
     /*    direction: rtl;*/
 }
 p {
-    margin: 0 0 15px;
+    margin: 0 0 10px;
 
 }
 
@@ -235,31 +247,35 @@ p:last-child {
 Section
 */
 .sections {
-    padding-top:85px;
-    padding-bottom: 105px;
+    padding: 85px 20px 10px 20px;
     overflow: hidden;
 }
 .sections.footer {
     padding-bottom: 80px;
 }
+
 section .subtitle h5 {
     margin-top: 10px;
     font-size: 1.3rem;
 }
+
 .parallax-section {
     max-width: 100%;
     color: #ffffff;
 }
+
 section .title-half h2 {
     font-size: 3rem;
     line-height: 4rem;
     font-weight: 300;
     margin-bottom: 1.4rem;
 }
+
 section .subtitle-half h5 {
     font-weight: 100;
     font-size: 17px;
 }
+
 ul{
     margin:0;
     padding:0;
@@ -548,7 +564,7 @@ input::-ms-input-placeholder {
 
 /*heading title all area*/
 .head_title{
-    margin-bottom:90px;
+    margin-bottom:15px;
     padding-right:5px;
 }
 .head_title h3{
@@ -594,6 +610,19 @@ input::-ms-input-placeholder {
     font-size:1.125rem;
 }
 
+.about_me {
+    text-align: justify;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.profile_photo {
+    margin-right: 10px;
+}
 
 /*footer section*/
 .footer{
