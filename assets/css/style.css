@@ -633,7 +633,7 @@ input::-ms-input-placeholder {
 }
 
 .skills .head_title h3 {
-    color: #fff;
+    color: #FFFFFF !important;
 }
 
 .bg_overlay {
@@ -647,7 +647,7 @@ input::-ms-input-placeholder {
 }
 
 .not-checked {
-    color: #999;
+    color: #999999;
 }
 
 .rating {
@@ -655,7 +655,7 @@ input::-ms-input-placeholder {
 }
 
 .list-group-item {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 .skills_listing {
