@@ -248,6 +248,7 @@ Section
 */
 .sections {
     padding-top: 85px;
+    padding-bottom: 50px;
     margin: 0 auto;
     width: 75%;
     overflow: hidden;
@@ -614,6 +615,8 @@ input::-ms-input-placeholder {
     font-size:1.125rem;
 }
 
+/*about section*/
+
 .about_me {
     text-align: justify;
 }
@@ -623,10 +626,21 @@ input::-ms-input-placeholder {
     width: 30%;
 }
 
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
+/*skills section*/
+.skills {
+    background: url(../images/skills_bg.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+
+.skills .head_title h3 {
+    color: #fff;
+}
+
+.bg_overlay {
+    background-color: rgba(41, 39, 34, 0.75);
+    width: 100%;
+    height: auto;
 }
 
 /*footer section*/
