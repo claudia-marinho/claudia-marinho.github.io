@@ -1,15 +1,15 @@
 html,
 body {
     background-color: #fff;
-    font-size: 0.9rem;
-    color: #464646;
+    font-size: 0.95rem;
+    color: #585858;
     width: 100%;
     padding: 0;
     margin-left: 0;
     margin-right: 0;
     font-weight: 400;
     width:100%;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 ::-webkit-scrollbar-track
@@ -100,7 +100,7 @@ a{
     /*    direction: rtl;*/
 }
 p {
-    margin: 0 0 10px;
+    margin: 0 0 8px;
 
 }
 
@@ -617,6 +617,7 @@ input::-ms-input-placeholder {
 
 .profile_photo {
     margin-right: 10px;
+    width:20%;
 }
 
 .vcenter {

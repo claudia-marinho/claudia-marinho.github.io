@@ -64,21 +64,6 @@ jQuery(document).ready(function ($) {
         return false;
     });
 
-//    $('#menu').slicknav();
-    jQuery('#portfoliowork').mixItUp({
-        selectors: {
-            target: '.tile',
-            filter: '.filter',
-            sort: '.sort-btn'
-        },
-        animation: {
-            animateResizeContainer: false,
-            effects: 'fade scale'
-        }
-
-    });
-
-
 
     $('.dropdown-menu').click(function (e) {
         e.stopPropagation();

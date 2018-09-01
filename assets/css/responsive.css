@@ -42,7 +42,7 @@
 /* Portrait tablets and small desktops */
 @media (max-width: 991px) {
     html {
-        font-size: 90%;
+        font-size: 95%;
     }
 
     .profile_photo {
@@ -108,7 +108,7 @@
 /* Landscape phones and portrait tablets */
 @media  (max-width: 768px) {
     html {
-        font-size: 80%;
+        font-size: 90%;
     }
 
     .profile_photo {
@@ -243,6 +243,10 @@
 
 /* Landscape phones and smaller */
 @media (max-width: 479px) {
+    html {
+        font-size: 85%;
+    }
+
     .profile_photo {
         margin-right: 10px;
         width:50%;
