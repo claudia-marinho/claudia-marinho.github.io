@@ -640,7 +640,7 @@ input::-ms-input-placeholder {
 .bg_overlay {
     background-color: rgba(41, 39, 34, 0.75);
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 /*footer section*/
