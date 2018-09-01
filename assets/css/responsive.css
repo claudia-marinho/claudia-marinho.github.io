@@ -127,6 +127,18 @@
 }
 /* Landscape phones and portrait tablets */
 @media  (max-width: 768px) {
+    h5 {
+        text-align: center !important;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .skills_listing {
+        margin: 0 auto;
+        text-align: center;
+    }
+
     .sections {
         width: 90%;
     }
