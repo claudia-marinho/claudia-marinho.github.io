@@ -9,10 +9,6 @@
 
 /* Portrait tablets and medium desktops */
 @media (max-width: 1199px) {
-    .skills h5 {
-        padding-top: 10px;
-    }
-
     .sections {
         width: 80%;
     }

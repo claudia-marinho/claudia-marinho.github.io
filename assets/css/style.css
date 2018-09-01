@@ -663,11 +663,17 @@ input::-ms-input-placeholder {
     text-align: center;
 }
 
+.skills_listing li {
+    text-align: left;
+}
+
 .skills h5 {
-    color: #ffffff !important;
-    text-align: center !important;
+    color: #ff9c4d;
+    text-align: center;
     margin: 0 auto;
+    padding-top: 10px;
     padding-bottom: 10px;
+    letter-spacing: 2px;
 }
 
 /*footer section*/
