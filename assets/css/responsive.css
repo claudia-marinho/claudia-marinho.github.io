@@ -9,6 +9,10 @@
 
 /* Portrait tablets and medium desktops */
 @media (max-width: 1199px) {
+    .skills h5 {
+        padding-top: 10px;
+    }
+
     .sections {
         width: 80%;
     }
@@ -127,16 +131,8 @@
 }
 /* Landscape phones and portrait tablets */
 @media  (max-width: 768px) {
-    h5 {
-        text-align: center !important;
-        margin: 0 auto;
+    .skills h5 {
         padding-top: 20px;
-        padding-bottom: 10px;
-    }
-
-    .skills_listing {
-        margin: 0 auto;
-        text-align: center;
     }
 
     .sections {
@@ -150,7 +146,6 @@
     .profile_photo {
         width:40%;
     }
-
 
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
         z-index: 999;

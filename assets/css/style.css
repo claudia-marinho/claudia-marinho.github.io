@@ -258,9 +258,7 @@ Section
 }
 
 section .subtitle h5 {
-    margin-top: 10px;
     font-size: 1.3rem;
-    color: #ffffff !important;
 }
 
 .parallax-section {
@@ -661,6 +659,15 @@ input::-ms-input-placeholder {
 
 .skills_listing {
     width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skills h5 {
+    color: #ffffff !important;
+    text-align: center !important;
+    margin: 0 auto;
+    padding-bottom: 10px;
 }
 
 /*footer section*/
