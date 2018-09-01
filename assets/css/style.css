@@ -195,7 +195,6 @@ h4 {
 h5 {
     font-size: 1.125rem;
     margin-bottom: 1rem;
-    color:#223d61;
     text-transform: uppercase;
 }
 h6 {
@@ -623,7 +622,7 @@ input::-ms-input-placeholder {
 
 .profile_photo {
     margin-right: 10px;
-    width: 30%;
+    width: 35%;
 }
 
 /*skills section*/
@@ -641,6 +640,26 @@ input::-ms-input-placeholder {
     background-color: rgba(41, 39, 34, 0.75);
     width: 100%;
     height: 100%;
+}
+
+.checked {
+    color: #ff9c4d;
+}
+
+.not-checked {
+    color: #999;
+}
+
+.rating {
+    font-size: 65%;
+}
+
+.list-group-item {
+    background-color: transparent;
+}
+
+.skills_listing {
+    width: 85%;
 }
 
 /*footer section*/
