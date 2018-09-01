@@ -247,9 +247,12 @@ p:last-child {
 Section
 */
 .sections {
-    padding: 85px 20px 10px 20px;
+    padding-top: 85px;
+    margin: 0 auto;
+    width: 75%;
     overflow: hidden;
 }
+
 .sections.footer {
     padding-bottom: 80px;
 }
@@ -617,7 +620,7 @@ input::-ms-input-placeholder {
 
 .profile_photo {
     margin-right: 10px;
-    width:20%;
+    width: 30%;
 }
 
 .vcenter {
