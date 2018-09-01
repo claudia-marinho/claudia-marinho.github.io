@@ -260,6 +260,7 @@ Section
 section .subtitle h5 {
     margin-top: 10px;
     font-size: 1.3rem;
+    color: #ffffff !important;
 }
 
 .parallax-section {
@@ -633,7 +634,7 @@ input::-ms-input-placeholder {
 }
 
 .skills .head_title h3 {
-    color: #FFFFFF !important;
+    color: #FFFFFF;
 }
 
 .bg_overlay {

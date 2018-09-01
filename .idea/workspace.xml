@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5130644c-7c3c-40a6-befc-c81f9a985bb3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,14 +82,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1430" />
+          <entry key="css" value="1444" />
           <entry key="html" value="5020" />
           <entry key="js" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1430" />
+          <entry key="CSS" value="1444" />
           <entry key="HTML" value="5020" />
           <entry key="JavaScript" value="4" />
         </counts>
@@ -108,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="461" column="117" selection-start-line="461" selection-start-column="117" selection-end-line="461" selection-end-column="117" />
+            <state relative-caret-position="177">
+              <caret line="365" column="74" selection-start-line="365" selection-start-column="65" selection-end-line="365" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -135,8 +134,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="635" column="30" selection-start-line="635" selection-start-column="30" selection-end-line="635" selection-end-column="30" />
+            <state relative-caret-position="228">
+              <caret line="262" column="30" selection-start-line="262" selection-start-column="30" selection-end-line="262" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -161,9 +160,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>separator</find>
-      <find>about_me</find>
-      <find>mixIt</find>
       <find>profile_photo</find>
       <find>about_des</find>
       <find>sections</find>
@@ -187,10 +183,13 @@
       <find>list</find>
       <find>skills</find>
       <find>skill</find>
-      <find>h5</find>
       <find>subtitl</find>
       <find>checked</find>
       <find>jquery</find>
+      <find>h5</find>
+      <find>!import</find>
+      <find>databases</find>
+      <find>subtitle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -219,7 +218,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -296,12 +295,12 @@
       <workItem from="1535654154986" duration="13823000" />
       <workItem from="1535671220663" duration="665000" />
       <workItem from="1535801374395" duration="15000" />
-      <workItem from="1535801492548" duration="19206000" />
+      <workItem from="1535801492548" duration="19346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67942000" />
+    <option name="totallyTimeSpent" value="68082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -397,15 +396,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="461" column="117" selection-start-line="461" selection-start-column="117" selection-end-line="461" selection-end-column="117" />
+        <state relative-caret-position="177">
+          <caret line="365" column="74" selection-start-line="365" selection-start-column="65" selection-end-line="365" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="635" column="30" selection-start-line="635" selection-start-column="30" selection-end-line="635" selection-end-column="30" />
+        <state relative-caret-position="228">
+          <caret line="262" column="30" selection-start-line="262" selection-start-column="30" selection-end-line="262" selection-end-column="30" />
         </state>
       </provider>
     </entry>
