@@ -367,10 +367,10 @@ Button
 }
 
 .btn:hover {
-    background-color:#f4720a;
+    //background-color:#f4720a;
     color: #fff;
     text-decoration: none;
-    border: 2px solid #ff7200;
+    //border: 2px solid #ff7200;
 }
 
 .btn-primary {
@@ -676,10 +676,6 @@ input::-ms-input-placeholder {
 
 /* works section */
 
-.works {
-    font-family: 'Raleway', sans-serif;
-}
-
 .caption_wrap {
     display: table;
     width: 100%;
@@ -713,9 +709,9 @@ input::-ms-input-placeholder {
     width: 50%;
     margin: 0 auto;
     padding-top: 10px;
-    font-size: 150%;
+    font-size: 110%;
     text-shadow: 1px 1px #000000;
-    font-family: 'Caveat', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .logo_hp {
@@ -724,8 +720,34 @@ input::-ms-input-placeholder {
 
 .work_btn {
     margin-top: 10px;
-    border-color: #ff7200;
     color: white;
+}
+
+.omb_btn {
+    border-color: #955D83;
+}
+
+.omb_btn:hover {
+    background-color:#955D83;
+    border: 2px solid #955D83;
+}
+
+.hp_btn {
+    border-color: #126336;
+}
+
+.hp_btn:hover {
+    background-color:#126336;
+    border: 2px solid #126336;
+}
+
+.ani_btn {
+    border-color: #d29898;
+}
+
+.ani_btn:hover {
+    background-color:#d29898;
+    border: 2px solid #d29898;
 }
 
 .carousel-caption
