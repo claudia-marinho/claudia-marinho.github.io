@@ -360,9 +360,8 @@ Button
     font-size:0.8125rem;
     border-radius: 0px;
     margin-top: 20px;
-    background-color: #ff7200;
     transition: .5s;
-    border: 1px solid #ff7200;
+    border: 2px solid #ff7200;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
@@ -371,7 +370,7 @@ Button
     background-color:#f4720a;
     color: #fff;
     text-decoration: none;
-    border: 1px solid #f4720a;
+    border: 2px solid #ff7200;
 }
 
 .btn-primary {
@@ -482,7 +481,6 @@ input::-ms-input-placeholder {
 
 /* navbar section */
 .menu-scroll {
-    z-index: 999;
     padding-top: 0px;
     padding-bottom: 0px;
     position: fixed;
@@ -674,6 +672,74 @@ input::-ms-input-placeholder {
     padding-top: 10px;
     padding-bottom: 10px;
     letter-spacing: 2px;
+}
+
+/* works section */
+
+.works {
+    font-family: 'Raleway', sans-serif;
+}
+
+.caption_wrap {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.caption_centered {
+    display: table-cell; vertical-align: middle;
+}
+
+.work_omb {
+    margin-top: 10px;
+    font-size: 95%;
+    text-shadow: 1px 1px #000000;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #A8A8A8;
+}
+
+.logo_omb {
+    width:15%;
+}
+
+.work_hp {
+    margin-top: 10px;
+    font-size: 200%;
+    font-family: 'Caveat', cursive;
+    color: #A8A8A8;
+}
+
+.work_ani {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10px;
+    font-size: 150%;
+    text-shadow: 1px 1px #000000;
+    font-family: 'Caveat', sans-serif;
+}
+
+.logo_hp {
+   width:40%;
+}
+
+.work_btn {
+    margin-top: 10px;
+    border-color: #ff7200;
+    color: white;
+}
+
+.carousel-caption
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    background: rgba(0,0,0,0.75);
 }
 
 /*footer section*/

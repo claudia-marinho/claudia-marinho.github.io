@@ -34,7 +34,6 @@ jQuery(document).ready(function ($) {
     });
     wow.init();
 
-
 // main-menu-scroll
 
     jQuery(window).scroll(function () {
