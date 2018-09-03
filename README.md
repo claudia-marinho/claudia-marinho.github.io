@@ -1,7 +1,6 @@
 # Cláudia Marinho - website
 
 To do:
-* Change background of other sections - gradient or similar
-* Fill SKILLS section (with various sections like "Languages", "Tools", "Frameworks" and "Methodologies")
-* Fill WORKS section (listing my best works and slider to show pictures and/or video of each work)
+* Make page for each work listed on WORKS section
+* For each work, make a carousel display the video and screenshots of that project, some information about it, the main languages/technologies used on it and some buttons redirecting to the source code or download links
 * Removed unused code on the whole project
