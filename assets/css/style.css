@@ -687,7 +687,9 @@ input::-ms-input-placeholder {
 }
 
 .work_omb {
-    margin-top: 10px;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
     font-size: 95%;
     text-shadow: 1px 1px #000000;
     font-family: 'Josefin Sans', sans-serif;
@@ -699,7 +701,9 @@ input::-ms-input-placeholder {
 }
 
 .work_hp {
-    margin-top: 10px;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10px;
     font-size: 200%;
     font-family: 'Caveat', cursive;
     color: #A8A8A8;
@@ -709,7 +713,7 @@ input::-ms-input-placeholder {
     width: 50%;
     margin: 0 auto;
     padding-top: 10px;
-    font-size: 110%;
+    font-size: 95%;
     text-shadow: 1px 1px #000000;
     font-family: 'Josefin Sans', sans-serif;
 }
