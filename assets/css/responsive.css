@@ -118,6 +118,27 @@
         font-size: 15px;
     }
 
+    .omb_btn, .hp_btn, .ani_btn {
+        border: 0;
+        font-weight: bold;
+    }
+
+    .omb_btn:hover, .hp_btn:hover, .ani_btn:hover {
+        border: 0;
+        background-color: transparent;
+    }
+
+    .omb_btn {
+        color: #955D83;
+    }
+
+    .hp_btn {
+        color: #3F9264;
+    }
+
+    .ani_btn {
+        color: #d29898;
+    }
 }
 
 

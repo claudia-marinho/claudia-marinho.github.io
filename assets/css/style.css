@@ -84,9 +84,6 @@ a{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
-.btn.extra-width {
-    padding: 13px 40px;
-}
 .btn:focus,
 .btn:active {
     outline: inherit;
@@ -359,7 +356,6 @@ Button
     margin: 0;
     font-size:0.8125rem;
     border-radius: 0px;
-    margin-top: 20px;
     transition: .5s;
     border: 2px solid #ff7200;
     font-family: 'Montserrat', sans-serif;
@@ -367,35 +363,10 @@ Button
 }
 
 .btn:hover {
-    //background-color:#f4720a;
     color: #fff;
     text-decoration: none;
-    //border: 2px solid #ff7200;
 }
 
-.btn-primary {
-    background-color: #ff7200;
-    transition: .5s;
-    padding: 9px 30px;
-}
-
-.btn_news_color{
-    color:#5e9a28;
-    border-color: #5e9a28;
-}
-
-.btn-md{
-    border:1px solid #5e9a28;
-    color:#5e9a28;
-    padding: 10px 45px 10px 0px;
-}
-
-
-.btn-larg{
-    border: 1px solid #fff;
-    color:#fff;
-    padding: 6px 30px;
-}
 
 /*
 Extra height css
@@ -690,20 +661,16 @@ input::-ms-input-placeholder {
     width: 70%;
     margin: 0 auto;
     padding-top: 10px;
-    font-size: 95%;
     text-shadow: 1px 1px #000000;
     font-family: 'Josefin Sans', sans-serif;
     color: #A8A8A8;
-}
-
-.logo_omb {
-    width:15%;
 }
 
 .work_hp {
     width: 50%;
     margin: 0 auto;
     padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 200%;
     font-family: 'Caveat', cursive;
     color: #A8A8A8;
@@ -713,9 +680,12 @@ input::-ms-input-placeholder {
     width: 50%;
     margin: 0 auto;
     padding-top: 10px;
-    font-size: 95%;
     text-shadow: 1px 1px #000000;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+.logo_omb {
+    width:15%;
 }
 
 .logo_hp {
@@ -737,12 +707,12 @@ input::-ms-input-placeholder {
 }
 
 .hp_btn {
-    border-color: #126336;
+    border-color: #3F9264;
 }
 
 .hp_btn:hover {
-    background-color:#126336;
-    border: 2px solid #126336;
+    background-color:#3F9264;
+    border: 2px solid #3F9264;
 }
 
 .ani_btn {
