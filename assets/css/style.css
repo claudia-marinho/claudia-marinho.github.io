@@ -605,6 +605,7 @@ input::-ms-input-placeholder {
 .work_btn {
     margin-top: 10px;
     color: white;
+    text-shadow: 1px 1px #000000 !important;
 }
 
 .omb_btn {
