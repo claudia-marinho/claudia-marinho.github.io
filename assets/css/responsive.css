@@ -10,10 +10,6 @@
 /* Portrait tablets and medium desktops */
 @media (max-width: 1199px) {
 
-    body {
-        font-size: 1rem;
-    }
-
     .sections {
         width: 85%;
     }
@@ -38,10 +34,6 @@
 
 /* Portrait tablets and small desktops */
 @media (max-width: 991px) {
-
-    html {
-        font-size: 95%;
-    }
 
     h3 {
         font-size: 1.575rem;
@@ -84,7 +76,7 @@
     }
 
     html {
-        font-size: 90%;
+        font-size: 95%;
     }
 
     .sections {
@@ -116,10 +108,6 @@
 
 /* Landscape phones and smaller */
 @media (max-width: 479px) {
-    html {
-        font-size: 88%;
-    }
-
     /* home section */
 
     .home .dev-name {
@@ -167,6 +155,10 @@
 
 
 @media (max-width: 320px) {
+
+    html {
+        font-size: 90%;
+    }
 
     /* home section */
 
