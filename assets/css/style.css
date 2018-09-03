@@ -556,6 +556,35 @@ input::-ms-input-placeholder {
 
 /* works section */
 
+.carousel_bg {
+    width: 100%;
+}
+
+.carousel-caption
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+.overlay_omb {
+    background: rgba(0,0,0,0.4);
+}
+
+.overlay_hp {
+    background: rgba(0,0,0,0.75);
+}
+
+.overlay_ani {
+    background: rgba(0,0,0,0.75);
+}
+
 .caption_wrap {
     display: table;
     width: 100%;
@@ -633,20 +662,6 @@ input::-ms-input-placeholder {
 .ani_btn:hover {
     background-color:#d29898;
     border: 2px solid #d29898;
-}
-
-.carousel-caption
-{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 10;
-    width: 100%;
-    height: 100%;
-    color: #fff;
-    text-align: center;
-    background: rgba(0,0,0,0.5);
 }
 
 /*footer section*/

@@ -101,7 +101,6 @@
         padding-top: 20px;
     }
 
-
 }
 
 
@@ -131,11 +130,6 @@
         font-weight: bold;
     }
 
-    .omb_btn:hover, .hp_btn:hover, .ani_btn:hover {
-        border: 0;
-        background-color: transparent;
-    }
-
     .omb_btn {
         color: #955D83;
     }
@@ -146,6 +140,11 @@
 
     .ani_btn {
         color: #d29898;
+    }
+
+    .omb_btn:hover, .hp_btn:hover, .ani_btn:hover {
+        border: 0;
+        background-color: transparent;
     }
 
 }
