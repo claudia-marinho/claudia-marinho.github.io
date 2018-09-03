@@ -9,19 +9,16 @@
 
 /* Portrait tablets and medium desktops */
 @media (max-width: 1199px) {
-
     .sections {
         width: 85%;
     }
 
     /* works section */
-
     .work_ani, .work_omb {
         font-size: 80% !important;
     }
 
     /* footer section */
-
     .copyright_text{
         text-align: center;
     }
@@ -29,12 +26,10 @@
     .footer .flowus{
         text-align: center;
     }
-
 }
 
 /* Portrait tablets and small desktops */
 @media (max-width: 991px) {
-
     h3 {
         font-size: 1.575rem;
         line-height: 2rem;
@@ -52,18 +47,14 @@
     }
 
     /* about section */
-
     .about .profile_photo {
         width: 35%;
     }
-
 }
 
 /* Landscape phones and portrait tablets */
 @media  (max-width: 768px) {
-
     /* navbar section */
-
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
         z-index: 999;
         border-color: transparent;
@@ -84,31 +75,24 @@
     }
 
     /* home section */
-
     .home .dev-name {
         font-size: 55px;
     }
 
     /* about section */
-
     .about .profile_photo {
         width: 40%;
     }
 
     /* skills section */
-
     .skills h5 {
         padding-top: 20px;
     }
-
 }
-
-
 
 /* Landscape phones and smaller */
 @media (max-width: 479px) {
     /* home section */
-
     .home .dev-name {
         font-size: 40px;
     }
@@ -118,13 +102,11 @@
     }
 
     /* about section */
-
     .about .profile_photo {
         width:50%;
     }
 
     /* works section */
-
     .works .omb_btn, .works .hp_btn, .works .ani_btn {
         border: 0;
         font-weight: bold;
@@ -147,20 +129,17 @@
         background-color: transparent;
     }
 
+    .copyright_text p{
+        font-size: 80%;
+    }
 }
 
-
-
-
-
 @media (max-width: 320px) {
-
     html {
         font-size: 90%;
     }
 
     /* home section */
-
     .home .dev-name {
         font-size: 32px;
     }
@@ -168,6 +147,5 @@
     .home .dev-desc {
         font-size: 12px;
     }
-
 }
 

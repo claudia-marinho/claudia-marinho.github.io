@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5130644c-7c3c-40a6-befc-c81f9a985bb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/work-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/anibook.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/home-pricing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/one-man-band.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +70,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="16" />
+          <entry key="css" value="17" />
           <entry key="html" value="9" />
           <entry key="js" value="10" />
           <entry key="php" value="1" />
@@ -84,7 +78,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="16" />
+          <entry key="CSS" value="17" />
           <entry key="HTML" value="9" />
           <entry key="JavaScript" value="10" />
           <entry key="PHP" value="1" />
@@ -92,14 +86,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="3803" />
+          <entry key="css" value="3851" />
           <entry key="html" value="6789" />
           <entry key="js" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="3803" />
+          <entry key="CSS" value="3851" />
           <entry key="HTML" value="6789" />
           <entry key="JavaScript" value="14" />
         </counts>
@@ -117,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="505" lean-forward="true" selection-start-line="505" selection-end-line="505" />
+            <state relative-caret-position="177">
+              <caret line="557" column="48" selection-start-line="557" selection-start-column="44" selection-end-line="557" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -126,8 +120,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="144" column="56" selection-start-line="144" selection-start-column="56" selection-end-line="144" selection-end-column="56" />
+            <state relative-caret-position="408">
+              <caret line="132" column="21" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -135,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="503" column="6" selection-start-line="503" selection-end-line="503" selection-end-column="6" />
+            <state relative-caret-position="381">
+              <caret line="589" selection-start-line="589" selection-end-line="589" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -198,7 +192,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>text</find>
       <find>colors</find>
       <find>coloricon</find>
       <find>colorsbg</find>
@@ -226,8 +219,9 @@
       <find>profile_pho</find>
       <find>lato</find>
       <find>montse</find>
-      <find>works</find>
       <find>&lt;a</find>
+      <find>flow</find>
+      <find>works</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -242,13 +236,13 @@
         <option value="$PROJECT_DIR$/assets/js/plugins.js" />
         <option value="$PROJECT_DIR$/pages/Anibook.html" />
         <option value="$PROJECT_DIR$/assets/css/work-page.css" />
-        <option value="$PROJECT_DIR$/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/pages/one-man-band.html" />
         <option value="$PROJECT_DIR$/pages/home-pricing.html" />
         <option value="$PROJECT_DIR$/pages/anibook.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/css/responsive.css" />
       </list>
     </option>
@@ -263,8 +257,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
+    <option name="x" value="214" />
+    <option name="y" value="64" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -350,15 +344,15 @@
       <workItem from="1535844149688" duration="35000" />
       <workItem from="1535883474471" duration="4519000" />
       <workItem from="1535918269338" duration="16978000" />
-      <workItem from="1535969181863" duration="13690000" />
+      <workItem from="1535969181863" duration="14186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112489000" />
+    <option name="totallyTimeSpent" value="112985000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29425114" />
@@ -477,24 +471,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="503" column="6" selection-start-line="503" selection-end-line="503" selection-end-column="6" />
+        <state relative-caret-position="177">
+          <caret line="557" column="48" selection-start-line="557" selection-start-column="44" selection-end-line="557" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="505" lean-forward="true" selection-start-line="505" selection-end-line="505" />
+        <state relative-caret-position="381">
+          <caret line="589" selection-start-line="589" selection-end-line="589" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="144" column="56" selection-start-line="144" selection-start-column="56" selection-end-line="144" selection-end-column="56" />
+        <state relative-caret-position="408">
+          <caret line="132" column="21" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
         </state>
       </provider>
     </entry>

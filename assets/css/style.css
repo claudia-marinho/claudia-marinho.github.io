@@ -559,9 +559,11 @@ Button
     overflow: hidden;
     padding: 40px 0px;
 }
+
 .footer .flowus{
     text-align: right;
 }
+
 .footer .flowus a i{
     color:#fff;
     font-size:1rem;
@@ -590,11 +592,6 @@ Button
     line-height: 25px;
     max-width: 100%;
     padding-top: 15px;
-}
-
-.copyright_text p i{
-    padding:0px 10px;
-    color:#ff0000;
 }
 
 .copyright_text p a{
