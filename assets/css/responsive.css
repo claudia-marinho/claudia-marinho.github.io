@@ -9,17 +9,22 @@
 
 /* Portrait tablets and medium desktops */
 @media (max-width: 1199px) {
+
+    body {
+        font-size: 1rem;
+    }
+
     .sections {
         width: 85%;
     }
+
+    /* works section */
 
     .work_ani, .work_omb {
         font-size: 80% !important;
     }
 
-    body {
-        font-size: 1rem;
-    }
+    /* footer section */
 
     .copyright_text{
         text-align: center;
@@ -34,16 +39,8 @@
 /* Portrait tablets and small desktops */
 @media (max-width: 991px) {
 
-    .sections {
-        width: 90%;
-    }
-
     html {
         font-size: 95%;
-    }
-
-    .profile_photo {
-        width:35%;
     }
 
     h3 {
@@ -57,25 +54,23 @@
         margin-bottom: .5rem;
         line-height: 1.475rem;
     }
+
+    .sections {
+        width: 90%;
+    }
+
+    /* about section */
+
+    .profile_photo {
+        width: 35%;
+    }
+
 }
 
 /* Landscape phones and portrait tablets */
 @media  (max-width: 768px) {
-    .sections {
-        width: 95%;
-    }
 
-    .skills h5 {
-        padding-top: 20px;
-    }
-
-    html {
-        font-size: 90%;
-    }
-
-    .profile_photo {
-        width: 40%;
-    }
+    /* navbar section */
 
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
         z-index: 999;
@@ -88,9 +83,32 @@
         border-bottom: 0px solid;
     }
 
+    html {
+        font-size: 90%;
+    }
+
+    .sections {
+        width: 95%;
+    }
+
+    /* home section */
+
     .home .dev-name {
         font-size: 55px;
     }
+
+    /* about section */
+
+    .profile_photo {
+        width: 40%;
+    }
+
+    /* skills section */
+
+    .skills h5 {
+        padding-top: 20px;
+    }
+
 
 }
 
@@ -102,13 +120,7 @@
         font-size: 88%;
     }
 
-    .profile_photo {
-        width:50%;
-    }
-
-    .about_skill_area .about_tabe .about_tabe_menu li a {
-        width: 75px;
-    }
+    /* home section */
 
     .home .dev-name {
         font-size: 40px;
@@ -117,6 +129,14 @@
     .home .dev-desc {
         font-size: 15px;
     }
+
+    /* about section */
+
+    .profile_photo {
+        width:50%;
+    }
+
+    /* works section */
 
     .omb_btn, .hp_btn, .ani_btn {
         border: 0;
@@ -139,6 +159,7 @@
     .ani_btn {
         color: #d29898;
     }
+
 }
 
 
@@ -147,9 +168,7 @@
 
 @media (max-width: 320px) {
 
-    .about_skill_area .about_tabe .about_tabe_menu li a {
-        width: 60px;
-    }
+    /* home section */
 
     .home .dev-name {
         font-size: 32px;
