@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5130644c-7c3c-40a6-befc-c81f9a985bb3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/css/home-pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/home-pricing.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home-pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home-pricing.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,7 +70,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="24" />
-          <entry key="html" value="12" />
+          <entry key="html" value="13" />
           <entry key="js" value="12" />
           <entry key="php" value="1" />
           <entry key="png" value="7" />
@@ -81,7 +79,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="24" />
-          <entry key="HTML" value="12" />
+          <entry key="HTML" value="13" />
           <entry key="Image" value="7" />
           <entry key="JavaScript" value="12" />
           <entry key="PHP" value="1" />
@@ -90,14 +88,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="5327" />
-          <entry key="html" value="8070" />
+          <entry key="html" value="8076" />
           <entry key="js" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="5327" />
-          <entry key="HTML" value="8070" />
+          <entry key="HTML" value="8076" />
           <entry key="JavaScript" value="62" />
         </counts>
       </usages-collector>
@@ -114,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="558" column="44" lean-forward="true" selection-start-line="558" selection-start-column="44" selection-end-line="558" selection-end-column="44" />
+            <state relative-caret-position="228">
+              <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -129,11 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/home-pricing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="135" column="35" selection-start-line="135" selection-start-column="28" selection-end-line="135" selection-end-column="35" />
+            <state relative-caret-position="170">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -147,7 +145,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/home-pricing.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="381">
@@ -186,8 +184,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>lead y</find>
-      <find>font-fa</find>
       <find>head_title</find>
       <find>head_t</find>
       <find>p {</find>
@@ -215,6 +211,8 @@
       <find>style</find>
       <find>carousel-it</find>
       <find>#3333</find>
+      <find>go_ba</find>
+      <find>favicon</find>
       <find>col-md-6</find>
     </findStrings>
   </component>
@@ -239,8 +237,8 @@
         <option value="$PROJECT_DIR$/assets/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/pages/home-pricing.html" />
         <option value="$PROJECT_DIR$/assets/css/home-pricing.css" />
+        <option value="$PROJECT_DIR$/pages/home-pricing.html" />
       </list>
     </option>
   </component>
@@ -336,12 +334,12 @@
       <workItem from="1535844149688" duration="35000" />
       <workItem from="1535883474471" duration="4519000" />
       <workItem from="1535918269338" duration="16978000" />
-      <workItem from="1535969181863" duration="38374000" />
+      <workItem from="1535969181863" duration="38915000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137173000" />
+    <option name="totallyTimeSpent" value="137714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -491,13 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="558" column="44" lean-forward="true" selection-start-line="558" selection-start-column="44" selection-end-line="558" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -505,17 +496,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/home-pricing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="135" column="35" selection-start-line="135" selection-start-column="28" selection-end-line="135" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/home-pricing.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
           <caret line="157" column="19" selection-start-line="157" selection-start-column="19" selection-end-line="157" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/home-pricing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
     </entry>
