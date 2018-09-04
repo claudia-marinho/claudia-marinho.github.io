@@ -2,76 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5130644c-7c3c-40a6-befc-c81f9a985bb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/home-pricing.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/instagram.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/work-page.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/anibook_tmp.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/anibook.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/fancybox/fancybox_loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/fancybox/fancybox_loading@2x.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/fancybox/fancybox_overlay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/fancybox/fancybox_sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/homePricing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/ani_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hp_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/name.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/omb_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/abright.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/ch_col_icn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/ch_col_icn_h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/choose.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/clogo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/clogo10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/clogo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/clogo3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/clogo4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/clogo5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/clogo9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/contact_icnbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/contactbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/counterbg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/divicebg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/featureslid1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/footerbg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/homebg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/iconbg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/iconbg1h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/iconbg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/iconbgh2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/info_iconbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/mapbg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/pf1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/pf2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/pf3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/pf4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/pf5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/pf6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/pf7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/pf8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/pf9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/skmenubg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/skmenubgh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/stab1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/stabmenubg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/stabmenubghv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/testbg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/tinified.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/old_assets/videobg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/gmaps.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.magnific-popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.masonry.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.mixitup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/anibook.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/anibook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/home-pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/home-pricing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home-pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home-pricing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/one-man-band.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/one-man-band.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +73,7 @@
         <counts>
           <entry key="css" value="24" />
           <entry key="html" value="12" />
-          <entry key="js" value="11" />
+          <entry key="js" value="12" />
           <entry key="php" value="1" />
           <entry key="png" value="7" />
         </counts>
@@ -150,22 +83,22 @@
           <entry key="CSS" value="24" />
           <entry key="HTML" value="12" />
           <entry key="Image" value="7" />
-          <entry key="JavaScript" value="11" />
+          <entry key="JavaScript" value="12" />
           <entry key="PHP" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="4621" />
-          <entry key="html" value="7929" />
-          <entry key="js" value="14" />
+          <entry key="css" value="5327" />
+          <entry key="html" value="8070" />
+          <entry key="js" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="4621" />
-          <entry key="HTML" value="7929" />
-          <entry key="JavaScript" value="14" />
+          <entry key="CSS" value="5327" />
+          <entry key="HTML" value="8070" />
+          <entry key="JavaScript" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.command.options" />
@@ -181,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1826">
-              <caret line="567" column="30" lean-forward="true" selection-start-line="567" selection-start-column="30" selection-end-line="567" selection-end-column="30" />
+            <state relative-caret-position="330">
+              <caret line="558" column="44" lean-forward="true" selection-start-line="558" selection-start-column="44" selection-end-line="558" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -199,12 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/home-pricing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="129" column="37" lean-forward="true" selection-start-line="129" selection-start-column="37" selection-end-line="129" selection-end-column="37" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#a#1;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="398">
+              <caret line="135" column="35" selection-start-line="135" selection-start-column="28" selection-end-line="135" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -221,8 +150,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/home-pricing.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="96" column="62" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="62" />
+            <state relative-caret-position="381">
+              <caret line="157" column="19" selection-start-line="157" selection-start-column="19" selection-end-line="157" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -230,8 +159,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="329" column="6" selection-start-line="329" selection-start-column="6" selection-end-line="329" selection-end-column="6" />
+            <state relative-caret-position="177">
+              <caret line="234" column="17" selection-start-line="234" selection-start-column="8" selection-end-line="234" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -257,15 +186,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>wow</find>
-      <find>indica</find>
-      <find>overlay</find>
-      <find>twin</find>
-      <find>.overlay</find>
-      <find>h3</find>
-      <find>work_hp</find>
-      <find>separator</find>
-      <find>slog</find>
       <find>lead y</find>
       <find>font-fa</find>
       <find>head_title</find>
@@ -284,9 +204,18 @@
       <find>work_btn</find>
       <find>btn</find>
       <find>works_ma</find>
-      <find>carousel-</find>
       <find>works_main</find>
       <find>chevron</find>
+      <find>carousel-c</find>
+      <find>carousel-</find>
+      <find>carousel-control</find>
+      <find>muted</find>
+      <find>carousel</find>
+      <find>carousel-con</find>
+      <find>style</find>
+      <find>carousel-it</find>
+      <find>#3333</find>
+      <find>col-md-6</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -296,8 +225,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/assets/css/twinkling-stars.css" />
-        <option value="$PROJECT_DIR$/assets/js/main.js" />
-        <option value="$PROJECT_DIR$/assets/js/main.js" />
         <option value="$PROJECT_DIR$/pages/Anibook.html" />
         <option value="$PROJECT_DIR$/pages/one-man-band.html" />
         <option value="$PROJECT_DIR$/pages/anibook.html" />
@@ -308,6 +235,8 @@
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/css/responsive.css" />
+        <option value="$PROJECT_DIR$/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/assets/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/pages/home-pricing.html" />
@@ -324,7 +253,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="214" />
     <option name="y" value="64" />
     <option name="width" value="1346" />
@@ -407,18 +336,18 @@
       <workItem from="1535844149688" duration="35000" />
       <workItem from="1535883474471" duration="4519000" />
       <workItem from="1535918269338" duration="16978000" />
-      <workItem from="1535969181863" duration="32680000" />
+      <workItem from="1535969181863" duration="38374000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131479000" />
+    <option name="totallyTimeSpent" value="137173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29425114" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29425114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -485,13 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="56" column="43" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/one-man-band.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -541,13 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="329" column="6" selection-start-line="329" selection-start-column="6" selection-end-line="329" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -555,10 +470,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/twinkling-stars.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="234" column="17" selection-start-line="234" selection-start-column="8" selection-end-line="234" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1826">
-          <caret line="567" column="30" lean-forward="true" selection-start-line="567" selection-start-column="30" selection-end-line="567" selection-end-column="30" />
+        <state relative-caret-position="330">
+          <caret line="558" column="44" lean-forward="true" selection-start-line="558" selection-start-column="44" selection-end-line="558" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -571,26 +507,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/home-pricing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="129" column="37" lean-forward="true" selection-start-line="129" selection-start-column="37" selection-end-line="129" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#1;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/twinkling-stars.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+        <state relative-caret-position="398">
+          <caret line="135" column="35" selection-start-line="135" selection-start-column="28" selection-end-line="135" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/home-pricing.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="96" column="62" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="62" />
+        <state relative-caret-position="381">
+          <caret line="157" column="19" selection-start-line="157" selection-start-column="19" selection-end-line="157" selection-end-column="19" />
         </state>
       </provider>
     </entry>

@@ -46,6 +46,10 @@ jQuery(document).ready(function ($) {
 
     });
 
+    $('.works_page .carousel').carousel({
+        interval: false
+    });
+
 // main-menu-scroll
 
     jQuery(window).scroll(function () {

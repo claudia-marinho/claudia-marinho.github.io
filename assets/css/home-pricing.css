@@ -155,6 +155,7 @@ body {
 }
 
 .go_back {
+    padding-top: 10px;
     text-align: center;
 }
 
@@ -165,4 +166,50 @@ body {
 .go_back a:hover {
     opacity: 0.8;
     filter: alpha(opacity=80);
+}
+
+video {
+    width: 100%;
+}
+
+.carousel-control {
+    top: 50%;
+    height: 0;
+}
+
+.next {
+    right: 25px !important;
+}
+
+.prev {
+    left: 25px !important;
+}
+
+.prev, .next {
+    color:#333333;
+    text-shadow: 1px 1px #999999;
+}
+
+.prev:hover, .next:hover {
+    color: #222222;
+    text-shadow: 1px 1px #999999;
+}
+
+.item:before {
+    -webkit-box-shadow: inset 0 0 20rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 20rem rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+
+.column {
+    padding-top: 10px;
+}
+
+.options {
+    text-align: center;
 }
