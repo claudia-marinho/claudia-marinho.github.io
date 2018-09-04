@@ -4,6 +4,7 @@ https://www.facebook.com/sonick.pk
 http://www.Mkrtchyan.zz.mu
 ================================================================================================= */
 
+/* stars animation (diagonal animation) */
 @keyframes move-twink-back {
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
@@ -21,6 +22,7 @@ http://www.Mkrtchyan.zz.mu
     to {background-position:-10000px 5000px;}
 }
 
+/* clouds animation (horizontal animation) */
 @keyframes move-clouds-back {
     from {background-position:0 0;}
     to {background-position:10000px 0;}
@@ -57,7 +59,6 @@ http://www.Mkrtchyan.zz.mu
 .twinkling{
     background:transparent url(../images/twinkling.png) repeat top center;
     z-index:1;
-
     -moz-animation:move-twink-back 200s linear infinite;
     -ms-animation:move-twink-back 200s linear infinite;
     -o-animation:move-twink-back 200s linear infinite;
@@ -68,7 +69,6 @@ http://www.Mkrtchyan.zz.mu
 .clouds{
     background:transparent url(../images/clouds3.png) repeat top center;
     z-index:3;
-
     -moz-animation:move-clouds-back 200s linear infinite;
     -ms-animation:move-clouds-back 200s linear infinite;
     -o-animation:move-clouds-back 200s linear infinite;
