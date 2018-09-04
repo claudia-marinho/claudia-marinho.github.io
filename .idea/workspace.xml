@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5130644c-7c3c-40a6-befc-c81f9a985bb3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/one-man-band.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/one-man-band.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,14 +90,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="5956" />
-          <entry key="html" value="9120" />
+          <entry key="html" value="9125" />
           <entry key="js" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="5956" />
-          <entry key="HTML" value="9120" />
+          <entry key="HTML" value="9125" />
           <entry key="JavaScript" value="62" />
         </counts>
       </usages-collector>
@@ -111,11 +111,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="391" lean-forward="true" selection-start-line="391" selection-end-line="391" />
+            <state relative-caret-position="177">
+              <caret line="124" column="167" selection-start-line="124" selection-start-column="167" selection-end-line="124" selection-end-column="191" />
             </state>
           </provider>
         </entry>
@@ -123,13 +123,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/anibook.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="55" column="73" selection-start-line="55" selection-start-column="73" selection-end-line="55" selection-end-column="73" />
+            <state relative-caret-position="177">
+              <caret line="79" column="106" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="106" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/one-man-band.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
@@ -150,8 +150,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>carousel-control</find>
-      <find>muted</find>
       <find>carousel</find>
       <find>carousel-con</find>
       <find>style</find>
@@ -180,6 +178,8 @@
       <find>one man</find>
       <find>separator</find>
       <find>user ca</find>
+      <find>smile</find>
+      <find>glyp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -201,11 +201,11 @@
         <option value="$PROJECT_DIR$/assets/css/responsive.css" />
         <option value="$PROJECT_DIR$/assets/css/common.css" />
         <option value="$PROJECT_DIR$/pages/home-pricing.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/pages/anibook.html" />
         <option value="$PROJECT_DIR$/assets/css/work-pages.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/pages/one-man-band.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -301,12 +301,12 @@
       <workItem from="1535883474471" duration="4519000" />
       <workItem from="1535918269338" duration="16978000" />
       <workItem from="1535969181863" duration="39996000" />
-      <workItem from="1536059496114" duration="6435000" />
+      <workItem from="1536059496114" duration="6990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145230000" />
+    <option name="totallyTimeSpent" value="145785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -432,13 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="391" lean-forward="true" selection-start-line="391" selection-end-line="391" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/work-pages.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
@@ -446,17 +439,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/anibook.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="55" column="73" selection-start-line="55" selection-start-column="73" selection-end-line="55" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/one-man-band.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="87" column="63" selection-start-line="87" selection-start-column="63" selection-end-line="87" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/anibook.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="79" column="106" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="124" column="167" selection-start-line="124" selection-start-column="167" selection-end-line="124" selection-end-column="191" />
         </state>
       </provider>
     </entry>
