@@ -133,6 +133,8 @@
         font-size: 80%;
     }
 
+    /* carousel indicators works page */
+
     .works_page .carousel-indicators li {
         width: 12px;
         height: 12px;
@@ -151,6 +153,12 @@
 
     .works_page .carousel-indicators {
         bottom:-50px;
+    }
+
+    /* work options */
+
+    .works_page .btn {
+        min-width: 100px;
     }
 }
 
