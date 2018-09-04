@@ -71,6 +71,35 @@ body {
     padding: 10px;
 }
 
+/* anibook css */
+
+.separator_ani {
+    height: 1px;
+    width: 170px;
+    margin: 20px 0px;
+    background: #eeeeee;
+    position: relative;
+}
+
+.separator_ani:after {
+    position: absolute;
+    left:0;
+    bottom:0;
+    height: 2px;
+    width: 50px;
+    background: #d29898;
+    content:"";
+}
+
+.slogan_ani {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 110%;
+    color: #a87979;
+    text-align: center;
+    padding: 10px;
+}
+
+
 /* carousel */
 video {
     width: 100%;
