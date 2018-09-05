@@ -217,6 +217,7 @@ Button
 
 .footer{
     background: #000000;
+    font-family: 'Lato', sans-serif;
 }
 .footer .main_footer{
     overflow: hidden;
