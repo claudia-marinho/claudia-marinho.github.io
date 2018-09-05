@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5130644c-7c3c-40a6-befc-c81f9a985bb3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Home_Pricing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Home_Pricing_xs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/OneManBand.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/OneManBand.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/OneManBand_xs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/OneManBand_xs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/anibook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/anibook_xs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/clouds3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/clouds3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/hp_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hp_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/mememe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/mememe.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/omb_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/omb_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/skills_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/skills_bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/stars.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/stars.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/twinkling.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/twinkling.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/anibook.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/anibook.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home-pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home-pricing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/one-man-band.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/one-man-band.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,14 +104,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="6391" />
-          <entry key="html" value="9432" />
+          <entry key="html" value="9445" />
           <entry key="js" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="6391" />
-          <entry key="HTML" value="9432" />
+          <entry key="HTML" value="9445" />
           <entry key="JavaScript" value="81" />
         </counts>
       </usages-collector>
@@ -140,7 +149,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/one-man-band.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="486">
@@ -156,7 +165,7 @@
         <entry file="file://$PROJECT_DIR$/assets/js/plugins.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="986">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
         </entry>
@@ -179,11 +188,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+            <state relative-caret-position="170">
+              <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
               <folding>
                 <element signature="e#2396#2402#1" expanded="true" />
               </folding>
@@ -257,11 +266,11 @@
         <option value="$PROJECT_DIR$/assets/js/preloader.js" />
         <option value="$PROJECT_DIR$/assets/js/main.js" />
         <option value="$PROJECT_DIR$/assets/js/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/pages/anibook.html" />
         <option value="$PROJECT_DIR$/pages/home-pricing.html" />
         <option value="$PROJECT_DIR$/pages/one-man-band.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -375,12 +384,12 @@
       <workItem from="1536095441913" duration="870000" />
       <workItem from="1536161700504" duration="2637000" />
       <workItem from="1536167316145" duration="5014000" />
-      <workItem from="1536180900095" duration="1984000" />
+      <workItem from="1536180900095" duration="3334000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159274000" />
+    <option name="totallyTimeSpent" value="160624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -509,7 +518,7 @@
     <entry file="file://$PROJECT_DIR$/assets/js/plugins.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
@@ -524,16 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
-          <folding>
-            <element signature="e#2396#2402#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -563,6 +562,16 @@
           <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
           <folding>
             <element signature="e#1672#1678#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+          <folding>
+            <element signature="e#2396#2402#1" expanded="true" />
           </folding>
         </state>
       </provider>
