@@ -2,20 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5130644c-7c3c-40a6-befc-c81f9a985bb3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/images/Home_Pricing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Home_Pricing_xs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/OneManBand.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/OneManBand.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/OneManBand_xs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/OneManBand_xs.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/anibook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/anibook_xs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/clouds3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/clouds3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hp_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hp_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/mememe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/mememe.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/omb_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/omb_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/skills_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/skills_bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/stars.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/stars.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/twinkling.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/twinkling.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/anibook/ani_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/anibook/ani_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/home-pricing/hp_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/home-pricing/hp_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/home-pricing/hp_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/home-pricing/hp_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/home-pricing/hp_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/one-man-band/omb_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/one-man-band/omb_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/one-man-band/omb_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/one-man-band/omb_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/one-man-band/omb_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/anibook.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/anibook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home-pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home-pricing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/one-man-band.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/one-man-band.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,14 +105,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="6391" />
-          <entry key="html" value="9445" />
+          <entry key="html" value="9453" />
           <entry key="js" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="6391" />
-          <entry key="HTML" value="9445" />
+          <entry key="HTML" value="9453" />
           <entry key="JavaScript" value="81" />
         </counts>
       </usages-collector>
@@ -125,11 +126,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/anibook.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+            <state relative-caret-position="261">
+              <caret line="68" column="68" selection-start-line="68" selection-start-column="68" selection-end-line="68" selection-end-column="68" />
               <folding>
                 <element signature="e#1667#1673#1" expanded="true" />
               </folding>
@@ -141,7 +142,7 @@
         <entry file="file://$PROJECT_DIR$/pages/home-pricing.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="409">
-              <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+              <caret line="88" column="76" selection-start-line="88" selection-start-column="76" selection-end-line="88" selection-end-column="76" />
               <folding>
                 <element signature="e#1666#1672#1" expanded="true" />
               </folding>
@@ -152,8 +153,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/one-man-band.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+            <state relative-caret-position="435">
+              <caret line="88" column="73" selection-start-line="88" selection-start-column="73" selection-end-line="88" selection-end-column="73" />
               <folding>
                 <element signature="e#1672#1678#1" expanded="true" />
               </folding>
@@ -188,7 +189,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -213,7 +214,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>open</find>
       <find>.btn</find>
       <find>skills</find>
       <find>ff7200</find>
@@ -243,6 +243,7 @@
       <find>https</find>
       <find>prelo</find>
       <find>preload</find>
+      <find>anibook.</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -266,11 +267,11 @@
         <option value="$PROJECT_DIR$/assets/js/preloader.js" />
         <option value="$PROJECT_DIR$/assets/js/main.js" />
         <option value="$PROJECT_DIR$/assets/js/main.js" />
-        <option value="$PROJECT_DIR$/pages/anibook.html" />
-        <option value="$PROJECT_DIR$/pages/home-pricing.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/pages/one-man-band.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/pages/home-pricing.html" />
+        <option value="$PROJECT_DIR$/pages/anibook.html" />
       </list>
     </option>
   </component>
@@ -283,7 +284,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="214" />
     <option name="y" value="64" />
     <option name="width" value="1346" />
@@ -384,12 +385,12 @@
       <workItem from="1536095441913" duration="870000" />
       <workItem from="1536161700504" duration="2637000" />
       <workItem from="1536167316145" duration="5014000" />
-      <workItem from="1536180900095" duration="3334000" />
+      <workItem from="1536180900095" duration="3861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160624000" />
+    <option name="totallyTimeSpent" value="161151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -536,12 +537,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/anibook.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        <state relative-caret-position="170">
+          <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
           <folding>
-            <element signature="e#1667#1673#1" expanded="true" />
+            <element signature="e#2396#2402#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/one-man-band.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="88" column="73" selection-start-line="88" selection-start-column="73" selection-end-line="88" selection-end-column="73" />
+          <folding>
+            <element signature="e#1672#1678#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -549,29 +560,19 @@
     <entry file="file://$PROJECT_DIR$/pages/home-pricing.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <caret line="88" column="76" selection-start-line="88" selection-start-column="76" selection-end-line="88" selection-end-column="76" />
           <folding>
             <element signature="e#1666#1672#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/one-man-band.html">
+    <entry file="file://$PROJECT_DIR$/pages/anibook.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        <state relative-caret-position="261">
+          <caret line="68" column="68" selection-start-line="68" selection-start-column="68" selection-end-line="68" selection-end-column="68" />
           <folding>
-            <element signature="e#1672#1678#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
-          <folding>
-            <element signature="e#2396#2402#1" expanded="true" />
+            <element signature="e#1667#1673#1" expanded="true" />
           </folding>
         </state>
       </provider>
