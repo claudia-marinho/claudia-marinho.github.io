@@ -1,10 +1,10 @@
 "use strict";
 jQuery(document).ready(function ($) {
-
-    $(window).load(function () {
-        $(".loaded").fadeOut();
-        $(".preloader").delay(1000).fadeOut("slow");
+    $(window).load(function() {
+        $('.loaded').fadeOut();
+        $(".preloader").delay(500).fadeOut("slow");
     });
+
     /*---------------------------------------------*
      * Mobile menu
      ---------------------------------------------*/
@@ -23,7 +23,6 @@ jQuery(document).ready(function ($) {
             }
         }
     });
-
 
     /*---------------------------------------------*
      * WOW
@@ -50,8 +49,7 @@ jQuery(document).ready(function ($) {
         interval: false
     });
 
-// main-menu-scroll
-
+    // main-menu-scroll
     jQuery(window).scroll(function () {
         var top = jQuery(document).scrollTop();
         var height = 300;
@@ -64,8 +62,7 @@ jQuery(document).ready(function ($) {
         }
     });
 
-// scroll Up
-
+    // scroll Up
     $(window).scroll(function () {
         if ($(this).scrollTop() > 600) {
             $('.scrollup').fadeIn('slow');
@@ -79,16 +76,12 @@ jQuery(document).ready(function ($) {
         return false;
     });
 
-
     $('.dropdown-menu').click(function (e) {
         e.stopPropagation();
     });
 
     //End
-
 });
-
-
 
 $(document).on("scroll", function () {
     if ($(document).scrollTop() > 120) {
@@ -97,6 +90,3 @@ $(document).on("scroll", function () {
         $("nav").removeClass("small");
     }
 });
-
-
-
