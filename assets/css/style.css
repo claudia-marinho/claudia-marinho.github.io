@@ -1,3 +1,12 @@
+img {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+img[data-src] {
+    opacity: 0;
+}
+
 html,
 body {
     background-color: #fff;
@@ -55,12 +64,14 @@ Separator
     margin-top: 0px;
     background-color: transparent;
 }
+
 .main_menu_bg .navbar-default {
     background-color: transparent;
     border-color: transparent;
     transition: all .6s;
     margin: 15px auto;
 }
+
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
     color: #ff7200;
     background: transparent;
@@ -71,7 +82,6 @@ Separator
     padding-bottom: 22px;
     border-bottom: 1px solid #ff7200;
     background: transparent;
-
 }
 
 .main_menu_bg .navbar-nav>li>a {
@@ -151,13 +161,6 @@ Separator
 .home .main_home h1{
     color: #fff;
     margin-bottom:20px;
-}
-.home .main_home p{
-    color: #fff;
-    max-width: 60%;
-    margin: 0 auto;
-    padding-bottom: 30px;
-    font-size:1.125rem;
 }
 
 /*about section*/
@@ -307,7 +310,7 @@ Separator
 }
 
 .works .logo_hp {
-   width:40%;
+    width:40%;
 }
 
 .works .work_btn {

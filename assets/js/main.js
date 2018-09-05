@@ -6,6 +6,13 @@ jQuery(document).ready(function ($) {
         $(".preloader").delay(1000).fadeOut("slow");
     });
 
+    [].forEach.call(document.querySelectorAll('img[data-src]'),    function(img) {
+        img.setAttribute('src', img.getAttribute('data-src'));
+        img.onload = function() {
+            img.removeAttribute('data-src');
+        };
+    });
+
     /*---------------------------------------------*
      * Mobile menu
      ---------------------------------------------*/
