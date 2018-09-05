@@ -1,11 +1,6 @@
 "use strict";
 jQuery(document).ready(function ($) {
 
-    $(window).load(function() {
-        $('.loaded').fadeOut();
-        $(".preloader").delay(500).fadeOut("slow");
-    });
-
     /*---------------------------------------------*
      * Mobile menu
      ---------------------------------------------*/
