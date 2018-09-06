@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5130644c-7c3c-40a6-befc-c81f9a985bb3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,15 +92,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="6410" />
-          <entry key="html" value="9548" />
-          <entry key="js" value="90" />
+          <entry key="html" value="9613" />
+          <entry key="js" value="92" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="6410" />
-          <entry key="HTML" value="9548" />
-          <entry key="JavaScript" value="90" />
+          <entry key="HTML" value="9613" />
+          <entry key="JavaScript" value="92" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.command.options" />
@@ -116,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="45" selection-end-column="6" />
+            <state relative-caret-position="170">
+              <caret line="21" column="78" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
               <folding>
                 <element signature="e#2076#2082#1" expanded="true" />
               </folding>
@@ -128,8 +128,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="7" />
+            <state relative-caret-position="102">
+              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -147,8 +147,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>one man</find>
-      <find>separator</find>
       <find>user ca</find>
       <find>glyp</find>
       <find>smile</find>
@@ -177,6 +175,8 @@
       <find>svg</find>
       <find>dev-desc</find>
       <find>one</find>
+      <find>&lt;img</find>
+      <find>lazy</find>
     </findStrings>
     <replaceStrings>
       <replace>/5</replace>
@@ -206,8 +206,8 @@
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assets/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/js/main.js" />
         <option value="$PROJECT_DIR$/assets/js/main.js" />
       </list>
     </option>
@@ -221,7 +221,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-61" />
     <option name="y" value="59" />
     <option name="width" value="1346" />
@@ -316,12 +316,12 @@
       <workItem from="1536161700504" duration="2637000" />
       <workItem from="1536167316145" duration="5014000" />
       <workItem from="1536180900095" duration="7895000" />
-      <workItem from="1536240769823" duration="6653000" />
+      <workItem from="1536240769823" duration="7485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171838000" />
+    <option name="totallyTimeSpent" value="172670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-61" y="59" width="1346" height="688" extended-state="0" />
@@ -497,8 +497,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="45" selection-end-column="6" />
+        <state relative-caret-position="170">
+          <caret line="21" column="78" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
           <folding>
             <element signature="e#2076#2082#1" expanded="true" />
           </folding>
@@ -507,8 +507,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="7" />
+        <state relative-caret-position="102">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
