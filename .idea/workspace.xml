@@ -58,8 +58,8 @@
     <session id="-911241216">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
-          <entry key="project.open.time.10" value="3" />
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="1" />
@@ -68,7 +68,7 @@
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -92,14 +92,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="6410" />
-          <entry key="html" value="9613" />
+          <entry key="html" value="9625" />
           <entry key="js" value="92" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="6410" />
-          <entry key="HTML" value="9613" />
+          <entry key="HTML" value="9625" />
           <entry key="JavaScript" value="92" />
         </counts>
       </usages-collector>
@@ -113,23 +113,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="21" column="78" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
-              <folding>
-                <element signature="e#2076#2082#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="266">
+              <caret line="421" column="53" selection-start-line="421" selection-start-column="53" selection-end-line="421" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -205,10 +202,10 @@
         <option value="$PROJECT_DIR$/assets/css/responsive.css" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/js/main.js" />
         <option value="$PROJECT_DIR$/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -221,7 +218,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-61" />
     <option name="y" value="59" />
     <option name="width" value="1346" />
@@ -233,6 +230,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,7 +264,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,18 +313,19 @@
       <workItem from="1536161700504" duration="2637000" />
       <workItem from="1536167316145" duration="5014000" />
       <workItem from="1536180900095" duration="7895000" />
-      <workItem from="1536240769823" duration="7485000" />
+      <workItem from="1536240769823" duration="8115000" />
+      <workItem from="1536258549457" duration="105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172670000" />
+    <option name="totallyTimeSpent" value="173405000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-61" y="59" width="1346" height="688" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33592534" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33207262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -420,9 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1105">
           <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
-          <folding>
-            <element signature="e#1667#1673#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -430,9 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
           <caret line="88" column="76" selection-start-line="88" selection-start-column="76" selection-end-line="88" selection-end-column="76" />
-          <folding>
-            <element signature="e#1666#1672#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -440,9 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
           <caret line="88" column="73" selection-start-line="88" selection-start-column="73" selection-end-line="88" selection-end-column="73" />
-          <folding>
-            <element signature="e#1672#1678#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -497,18 +486,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="21" column="78" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
-          <folding>
-            <element signature="e#2076#2082#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="421" column="53" selection-start-line="421" selection-start-column="53" selection-end-line="421" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
