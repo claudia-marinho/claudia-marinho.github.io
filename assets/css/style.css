@@ -181,7 +181,7 @@ Separator
 
 /*skills section*/
 .skills {
-    background: url(../images/skills_bg.jpg) no-repeat center center;
+    background: url(../images/skills_bg.jpg) no-repeat center bottom;
     background-size: cover;
     color: #fff;
 }
@@ -316,7 +316,7 @@ Separator
 }
 
 .works .omb_btn {
-    border-color: #955D83;
+    border: 2px solid #955D83;
 }
 
 .works .omb_btn:hover {
@@ -325,7 +325,7 @@ Separator
 }
 
 .works .hp_btn {
-    border-color: #3F9264;
+    border: 2px solid #3F9264;
 }
 
 .works .hp_btn:hover {
@@ -334,7 +334,7 @@ Separator
 }
 
 .works .ani_btn {
-    border-color: #d29898;
+    border: 2px solid #d29898;
 }
 
 .works .ani_btn:hover {
