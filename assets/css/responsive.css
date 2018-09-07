@@ -89,10 +89,23 @@
     .skills h5 {
         padding-top: 20px;
     }
+
+}
+
+@media  (max-width: 650px) {
+    /* works section */
+    .works .logo_omb {
+        width:20%;
+    }
+
+    .works .logo_hp {
+        width:45%;
+    }
 }
 
 /* Landscape phones and smaller */
 @media (max-width: 479px) {
+
     /* home section */
     .home .dev-name {
         font-size: 40px;
@@ -107,7 +120,16 @@
         width:50%;
     }
 
+    /* skills section */
+    .stars_rating {
+        font-size: 90%;
+    }
+
     /* works section */
+    .works .logo_hp {
+        width:50%;
+    }
+
     .works .omb_btn, .works .hp_btn, .works .ani_btn {
         border: 0;
         font-weight: bold;
@@ -164,6 +186,7 @@
 }
 
 @media (max-width: 320px) {
+
     html {
         font-size: 90%;
     }
@@ -175,6 +198,20 @@
 
     .home .dev-desc {
         font-size: 12px;
+    }
+
+    /* skills section */
+    .stars_rating {
+        font-size: 80%;
+    }
+
+    /* works section */
+    .works .logo_omb {
+        width:25%;
+    }
+
+    .works .logo_hp {
+        width:60%;
     }
 }
 
