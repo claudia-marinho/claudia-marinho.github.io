@@ -181,7 +181,7 @@ Separator
 
 /*skills section*/
 .skills {
-    background: url(../images/skills_bg.jpg) no-repeat center bottom;
+    background: #292722 url(../images/skills_bg.jpg) no-repeat center bottom;
     background-size: cover;
     color: #fff;
 }

@@ -31,7 +31,7 @@
 /* Portrait tablets and small desktops */
 @media (max-width: 991px) {
     .skills {
-        background: url(../images/skills_bg_xs.jpg) no-repeat center center;
+        background: #292722 url(../images/skills_bg_xs.jpg) no-repeat center center;
         background-size: cover;
         color: #fff;
     }
