@@ -63,6 +63,7 @@ a,
 a:hover,
 a:active,
 a:focus {
+    color:#ff7200;
     text-decoration: none;
     outline: none;
 }
