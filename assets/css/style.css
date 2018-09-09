@@ -234,10 +234,6 @@ Separator
 
 /* works section */
 
-.works .carousel_bg {
-    width: 100%;
-}
-
 .works .carousel-caption
 {
     position: absolute;
@@ -256,11 +252,11 @@ Separator
 }
 
 .works .overlay_hp {
-    background: rgba(0,0,0,0.45);
+    background: rgba(0,0,0,0.55);
 }
 
 .works .overlay_ani {
-    background: rgba(0,0,0,0.45);
+    background: rgba(0,0,0,0.55);
 }
 
 .works .caption_wrap {
@@ -340,4 +336,16 @@ Separator
 .works .ani_btn:hover {
     background-color:#d29898;
     border: 2px solid #d29898;
+}
+
+/* Carousel */
+
+.prev, .next {
+    color: #FFFFFF;
+    text-shadow: 1px 1px #a3a3a3;
+}
+
+.prev:hover, .next:hover {
+    color: #cccccc;
+    text-shadow: 1px 1px #a3a3a3;
 }

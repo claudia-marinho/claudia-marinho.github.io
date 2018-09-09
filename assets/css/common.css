@@ -158,6 +158,47 @@ p:last-child {
     margin-bottom: 0px;
 }
 
+/* carousel */
+
+.carousel_bg {
+    width: 100%;
+}
+
+/* carousel controls */
+.carousel-control {
+    opacity:1.0 !important;
+}
+
+/* Carousel indicators */
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #999999;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.carousel-indicators .active {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    background-color: #333333;
+}
+
+.carousel-inner {
+    margin-bottom:50px;
+}
+
+.carousel-indicators {
+    bottom:-50px;
+}
+
 /*
 Section
 */

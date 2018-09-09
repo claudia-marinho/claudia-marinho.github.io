@@ -105,44 +105,10 @@ video {
      width: 100%;
 }
 
-.carousel_bg {
-    width: 100%;
-}
-
-/* carousel indicators */
-.works_page .carousel-indicators li {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin: 5px;
-    text-indent: 0;
-    cursor: pointer;
-    border: none;
-    border-radius: 50%;
-    background-color: #999999;
-    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
-}
-
-.works_page .carousel-indicators .active {
-    width: 20px;
-    height: 20px;
-    margin: 5px;
-    background-color: #333333;
-}
-
-.works_page .carousel-inner {
-    margin-bottom:50px;
-}
-
-.works_page .carousel-indicators {
-    bottom:-50px;
-}
-
 /* carousel controls */
 .carousel-control {
     top: 50%;
     height: 0;
-    opacity:1.0 !important;
 }
 
 .prev {
@@ -154,7 +120,7 @@ video {
 }
 
 .prev, .next {
-    color:#555555;
+    color: #555555;
     text-shadow: 1px 1px #a3a3a3;
 }
 

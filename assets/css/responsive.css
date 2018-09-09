@@ -158,23 +158,23 @@
 
     /* carousel indicators works page */
 
-    .works_page .carousel-indicators li {
+    .carousel-indicators li {
         width: 12px;
         height: 12px;
         margin: 3px;
     }
 
-    .works_page .carousel-indicators .active {
+    .carousel-indicators .active {
         width: 12px;
         height: 12px;
         margin: 3px;
     }
 
-    .works_page .carousel-inner {
+    .carousel-inner {
         margin-bottom:50px;
     }
 
-    .works_page .carousel-indicators {
+    .carousel-indicators {
         bottom:-50px;
     }
 
