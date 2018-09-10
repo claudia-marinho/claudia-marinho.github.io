@@ -54,7 +54,7 @@ Separator
     z-index: 300;
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    background-color:rgba(52, 52, 52, 0.9);
+    background-color:rgba(52, 52, 52, 0.9) !important;
     -webkit-transition:all .3s;
     -moz-transition:all .3s;
     transition:all .3s;
