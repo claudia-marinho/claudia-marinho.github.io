@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5130644c-7c3c-40a6-befc-c81f9a985bb3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/downloads/cv.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/downloads/cv.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/anibook.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/anibook.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,7 +120,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
@@ -175,11 +174,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/anibook.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="177">
+              <caret line="96" column="243" selection-start-line="96" selection-start-column="243" selection-end-line="96" selection-end-column="243" />
             </state>
           </provider>
         </entry>
@@ -216,7 +215,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sql</find>
       <find>menu-</find>
       <find>hidden-xs</find>
       <find>svg</find>
@@ -246,6 +244,7 @@
       <find>profile_</find>
       <find>down</find>
       <find>linux</find>
+      <find>master's</find>
     </findStrings>
     <replaceStrings>
       <replace>/5</replace>
@@ -275,9 +274,9 @@
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/css/responsive.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/pages/anibook.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -393,12 +392,12 @@
       <workItem from="1537219158847" duration="113000" />
       <workItem from="1537239143912" duration="650000" />
       <workItem from="1537244584731" duration="1585000" />
-      <workItem from="1537288354211" duration="1726000" />
+      <workItem from="1537288354211" duration="1732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201703000" />
+    <option name="totallyTimeSpent" value="201709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -559,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/anibook.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/home-pricing.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1211">
@@ -585,6 +577,13 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/anibook.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="96" column="243" selection-start-line="96" selection-start-column="243" selection-end-line="96" selection-end-column="243" />
         </state>
       </provider>
     </entry>
