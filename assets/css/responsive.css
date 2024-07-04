@@ -13,6 +13,11 @@
         width: 85%;
     }
 
+    /* about section */
+    .about .profile_photo {
+        width: 35%;
+    }
+
     /* works section */
     .work_ani, .work_omb {
         font-size: 80% !important;
@@ -56,11 +61,6 @@
 
     .sections {
         width: 90%;
-    }
-
-    /* about section */
-    .about .profile_photo {
-        width: 35%;
     }
 }
 
