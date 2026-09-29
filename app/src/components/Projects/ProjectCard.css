@@ -1,0 +1,128 @@
+.project {
+  min-height: 600px;
+  display: grid;
+  grid-template-columns: 44% 56%;
+  align-items: center;
+  overflow: hidden;
+  padding-inline: max(6%, calc((100% - 1510px) / 2));
+}
+.project-blue {
+  background: var(--sky);
+}
+.project-green {
+  background: var(--green);
+  color: white;
+  grid-template-columns: 56% 44%;
+}
+.project-text {
+  padding: 45px clamp(20px, 3vw, 52px) 45px 0;
+}
+.project-green .project-text {
+  padding: 45px 0 45px clamp(20px, 3vw, 52px);
+}
+.project h3 {
+  font-size: clamp(5rem, 7vw, 8rem);
+  margin-bottom: 8px;
+  line-height: 1.08;
+}
+.project-subtitle {
+  font-size: clamp(20px, 2vw, 27px);
+  font-weight: 800;
+  line-height: 1.3;
+  margin-bottom: 24px;
+}
+.project-title-word .project-rays {
+  left: calc(100% + 0.005em);
+  top: -0.025em;
+  width: 0.38em;
+  height: 0.48em;
+}
+.project-title-word .project-rays path {
+  stroke-width: 14;
+}
+.project-blue .project-rays path {
+  stroke: var(--navy);
+}
+.project-green .project-rays path {
+  stroke: var(--sky);
+}
+.project-text > p:last-child {
+  font-size: 17px;
+  line-height: 1.62;
+  max-width: 595px;
+  margin: 0;
+}
+.project-art {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  height: 540px;
+  padding: 12px;
+  overflow: hidden;
+}
+.project-art img {
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  object-fit: contain;
+}
+@media (max-width: 760px) {
+  .project {
+    grid-template-columns: 1fr;
+    min-height: 0;
+    padding-inline: 0;
+  }
+  .project-text,
+  .project-green .project-text {
+    padding: 55px 24px 8px;
+  }
+  .project-green .project-text {
+    grid-row: 1;
+  }
+  .project-green .project-art {
+    grid-row: 2;
+  }
+  .project-art {
+    height: auto;
+    min-height: 0;
+    padding: 0 8px 24px;
+  }
+  .project-art img {
+    height: auto;
+  }
+}
+@media (max-width: 420px) {
+  .project h3 {
+    font-size: 5rem;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .project-art img {
+    transition: transform 0.55s cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+}
+@media (min-width: 761px) and (prefers-reduced-motion: no-preference) {
+  .project:hover .project-art img {
+    transform: scale(1.025);
+  }
+}
+@media print {
+  .project {
+    background: white;
+    color: var(--navy);
+    display: block;
+    min-height: 0;
+    break-inside: avoid;
+  }
+  .project-text,
+  .project-green .project-text {
+    padding: 20px 0;
+  }
+  .project-art {
+    display: none;
+  }
+  .project h3 {
+    font-size: 44pt;
+  }
+}

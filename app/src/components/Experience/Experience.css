@@ -1,0 +1,214 @@
+.experience {
+  background: var(--cream);
+  padding: 88px 0 100px;
+}
+.experience .content {
+  width: min(1510px, calc(100% - 12%));
+  margin: auto;
+}
+.experience h2 {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 68px;
+  line-height: 1;
+}
+.experience-word .experience-rays {
+  left: calc(100% + 0.02em);
+  right: auto;
+  top: -0.04em;
+  width: 0.5em;
+  height: 0.56em;
+}
+.timeline {
+  position: relative;
+}
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 27%;
+  top: 14px;
+  bottom: 0;
+  width: 3px;
+  background: var(--navy);
+}
+.company {
+  position: relative;
+  display: grid;
+  grid-template-columns: 27% 1fr;
+  padding: 0 0 95px;
+}
+.company:last-child {
+  padding-bottom: 0;
+}
+.company::before {
+  content: "";
+  position: absolute;
+  left: calc(27% - 12px);
+  top: -10px;
+  width: 27px;
+  height: 27px;
+  z-index: 2;
+  background: var(--navy);
+  border-radius: 50%;
+}
+.company-head {
+  display: block;
+  padding-right: 60px;
+}
+.logo-frame {
+  width: 160px;
+  height: 160px;
+  aspect-ratio: 1;
+  background: white;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+.company-head .logo-frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.company-head h3 {
+  font:
+    800 clamp(26px, 2.5vw, 42px)/1.1 Manrope,
+    sans-serif;
+  letter-spacing: -0.04em;
+  margin: 0 0 24px;
+  clear: both;
+  position: relative;
+}
+.company-date {
+  font-size: 18px;
+  font-weight: 800;
+  color: #1826c7;
+  line-height: 1.3;
+}
+.roles {
+  padding-left: clamp(45px, 7vw, 105px);
+}
+.role {
+  padding: 0 0 34px;
+}
+.role + .role {
+  border-top: 1px solid #d9dfe6;
+  padding-top: 34px;
+}
+.role-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.role-heading h4,
+.role-heading span {
+  font-family: "Passion One", Impact, sans-serif;
+  font-weight: 400;
+  letter-spacing: normal;
+}
+.role-heading h4 {
+  font-size: clamp(20px, 2vw, 29px);
+  line-height: 1.2;
+  color: var(--navy);
+  margin: 0;
+  max-width: 430px;
+}
+.role-heading span {
+  font-size: clamp(17px, 1.5vw, 22px);
+  color: #1826c7;
+  line-height: 1.25;
+  text-align: right;
+  white-space: nowrap;
+}
+.role p {
+  font-size: clamp(16px, 1.55vw, 21px);
+  line-height: 1.55;
+  color: #1b289e;
+  max-width: 750px;
+  margin: 0;
+}
+@media (max-width: 1050px) {
+  .company-head {
+    padding-right: 32px;
+  }
+  .roles {
+    padding-left: 55px;
+  }
+  .role-heading {
+    display: block;
+  }
+  .role-heading span {
+    display: block;
+    text-align: left;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 760px) {
+  .experience .content {
+    width: calc(100% - 48px);
+  }
+  .timeline::before {
+    left: 14px;
+  }
+  .company {
+    display: block;
+    padding-left: 48px;
+    padding-bottom: 55px;
+  }
+  .company::before {
+    left: 2px;
+    top: 0;
+  }
+  .company-head {
+    padding: 0;
+    margin-bottom: 24px;
+  }
+  .logo-frame {
+    width: 128px;
+    height: 128px;
+    margin-bottom: 16px;
+  }
+  .company-head h3 {
+    font-size: 30px;
+    margin-bottom: 6px;
+  }
+  .company-date {
+    font-size: 16px;
+  }
+  .roles {
+    padding-left: 0;
+  }
+  .role-heading h4 {
+    font-size: 23px;
+  }
+  .role-heading span {
+    font-size: 17px;
+  }
+  .role p {
+    font-size: 16px;
+  }
+  .role {
+    padding-bottom: 24px;
+  }
+  .role + .role {
+    padding-top: 24px;
+  }
+}
+@media print {
+  .experience {
+    background: white;
+    color: var(--navy);
+    display: block;
+    min-height: 0;
+    padding: 20px 0;
+  }
+  .experience .content {
+    width: 100%;
+  }
+}

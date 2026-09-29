@@ -1,2 +1,4 @@
-.idea/
-.idea/workspace.xml
+app/node_modules/
+app/dist/
+app/playwright-report/
+app/test-results/

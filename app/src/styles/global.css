@@ -1,0 +1,56 @@
+:root {
+  color-scheme: light;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--sticky-header-height, 83px);
+}
+body {
+  margin: 0;
+  color: var(--navy);
+  font:
+    400 16px/1.65 Manrope,
+    Arial,
+    sans-serif;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a {
+  color: inherit;
+}
+a:focus-visible {
+  outline: 3px solid var(--lime);
+  outline-offset: 4px;
+}
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+h1,
+h2,
+h3 {
+  font-family: "Passion One", Impact, sans-serif;
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: normal;
+}
+h2 {
+  font-size: clamp(3.6rem, 7.4vw, 8rem);
+}
+@media (max-width: 760px) {
+  html {
+    scroll-padding-top: var(--sticky-header-height, 80px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

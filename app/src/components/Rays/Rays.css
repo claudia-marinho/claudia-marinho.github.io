@@ -1,0 +1,35 @@
+.rays {
+  position: absolute;
+  z-index: 5;
+  overflow: visible;
+  pointer-events: none;
+  width: 55px;
+  height: 75px;
+}
+.rays path {
+  fill: none;
+  stroke: var(--lime);
+  stroke-width: 8;
+  stroke-linecap: round;
+}
+.word-anchor {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+}
+.word-anchor .rays {
+  left: calc(100% + 0.07em);
+  right: auto;
+  top: 0.04em;
+  width: 0.5em;
+  height: 0.56em;
+  min-width: 0;
+}
+.word-anchor .rays path {
+  stroke-width: 15;
+}
+@media (max-width: 760px) {
+  .word-anchor .rays {
+    left: calc(100% + 0.02em);
+  }
+}

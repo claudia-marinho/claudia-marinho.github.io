@@ -1,0 +1,26 @@
+/* Shared two-column sections and content padding. */
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.panel {
+  padding-inline: clamp(30px, 6.1vw, 110px);
+}
+@media (max-width: 1050px) {
+  .panel {
+    padding-inline: 45px;
+  }
+}
+@media (max-width: 760px) {
+  .split {
+    grid-template-columns: 1fr;
+  }
+  .panel {
+    padding-inline: clamp(24px, 7vw, 52px);
+  }
+}
+@media print {
+  .panel {
+    padding: 20px 0;
+  }
+}
