@@ -16,9 +16,8 @@ export default function Build() {
             </h2>
           </div>
           <p>
-            I enjoy turning ideas into real products—crafting intuitive
-            interfaces, building reliable services and helping teams ship with
-            confidence.
+            Most of my work centres on React and TypeScript, but I also work on
+            backend services, deployments and technical coordination.
           </p>
         </div>
         <div className="capabilities">
@@ -32,8 +31,8 @@ export default function Build() {
             <div>
               <h3>Frontend experiences</h3>
               <p>
-                Accessible, responsive interfaces that feel clear and intuitive
-                to use.
+                Responsive, accessible interfaces, from dashboards to tools for
+                media production.
               </p>
               <small>React · Next.js · TypeScript · HTML/CSS</small>
             </div>
@@ -50,8 +49,8 @@ export default function Build() {
             <div>
               <h3>APIs &amp; BFFs</h3>
               <p>
-                Backend services that connect complex systems to seamless user
-                experiences.
+                APIs and backend services that bring together the data and
+                functionality an interface needs.
               </p>
               <small>Node.js · Express · GraphQL · REST · Python</small>
             </div>
@@ -65,8 +64,8 @@ export default function Build() {
             <div>
               <h3>Delivery</h3>
               <p>
-                Taking features from implementation through deployment and
-                release.
+                Getting features into production and supporting deployments and
+                releases.
               </p>
               <small>Docker · Kubernetes · Helm · CI/CD</small>
             </div>
@@ -80,8 +79,8 @@ export default function Build() {
             <div>
               <h3>Technical guidance</h3>
               <p>
-                Reviewing code, sharing knowledge and helping colleagues make
-                thoughtful technical decisions.
+                Reviewing code, sharing what I’ve learned and helping colleagues
+                work through technical decisions.
               </p>
             </div>
           </article>

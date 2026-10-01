@@ -19,9 +19,8 @@ export default function Projects() {
           </span>
         </h2>
         <p>
-          <strong>Real products. Real users. Different contexts.</strong>
-          <br />
-          Here are three projects I’m proud to have helped bring to life.
+          <strong>Film education, XR media and school newsrooms.</strong>
+          <br />A few projects I’ve worked on, and what I contributed to each.
         </p>
       </div>
       {projects.map((project) => (

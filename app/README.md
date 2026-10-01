@@ -24,6 +24,7 @@ Deploy the contents of **dist/** to a static hosting service. The project uses r
 
 - **src/components/**: one folder per component, with its TSX and CSS together. Each component imports its own stylesheet.
 - **src/components/Projects/**: the Projects section, ProjectCard component, and `projects.data.ts` content.
+- **src/components/About/**: the About section, postcard triggers and modal, their colocated styles, and `postcards.data.ts` captions and locations. The native dialog supports Escape, backdrop dismissal, focus restoration, scroll locking, and reduced motion.
 - **src/components/Header/navigation.ts**: navigation links, shared with the section navigation hook.
 - **src/hooks/**: active navigation, header height, and entrance animations, including proper cleanup of listeners and observers.
 - **src/styles/**: shared colour tokens (`tokens.css`), resets and typography (`global.css`), section layout utilities (`layout.css`), and reveal animations (`motion.css`). These load before component styles in `main.tsx`.

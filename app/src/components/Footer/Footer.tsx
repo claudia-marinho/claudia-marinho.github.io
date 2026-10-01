@@ -14,8 +14,8 @@ export default function Footer() {
           </span>
         </h2>
         <p>
-          If you’re building something meaningful, I’d love to hear about it.
-          Let’s connect.
+          Want to talk about a project or working together? I’d love to hear
+          from you.
         </p>
         <div className="footer-links">
           <a href="mailto:claudia.m.r.marinho@gmail.com">

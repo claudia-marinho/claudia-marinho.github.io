@@ -150,6 +150,9 @@
   }
 }
 @media (max-width: 760px) {
+  .experience-word .experience-rays {
+    width: 0.34em;
+  }
   .experience .content {
     width: calc(100% - 48px);
   }

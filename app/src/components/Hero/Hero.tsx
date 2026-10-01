@@ -31,8 +31,8 @@ export default function Hero() {
           </svg>
         </div>
         <p>
-          I build thoughtful, user-centred web applications, from engaging
-          interfaces to robust APIs.
+          I build web applications, with a focus on interfaces that are easy to
+          use and the APIs behind them.
         </p>
         <a className="button" href="#projects">
           Explore my work <span aria-hidden="true">→</span>
