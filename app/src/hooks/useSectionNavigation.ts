@@ -72,7 +72,18 @@ export function useSectionNavigation(headerRef: RefObject<HTMLElement | null>) {
     // Initialize immediately, including when the page opens at a section hash.
     updateNavigation();
 
+    // React may mount the target after the browser's initial fragment lookup.
+    // Align it once the header offset has been written; later links stay native.
+    const initialSection = sections.find(
+      ({ id }) => window.location.hash === `#${id}`,
+    );
+    const anchorFrame = requestAnimationFrame(() => {
+      initialSection?.element?.scrollIntoView({ behavior: "instant" });
+      scheduleUpdate();
+    });
+
     return () => {
+      cancelAnimationFrame(anchorFrame);
       // Cancel pending work before removing listeners and restoring the CSS value.
       if (frame !== null) cancelAnimationFrame(frame);
       observer?.disconnect();

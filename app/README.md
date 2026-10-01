@@ -40,6 +40,7 @@ deployment, those generated root files can be removed.
 - **src/components/**: one folder per component, with its TSX and CSS together. Each component imports its own stylesheet.
 - **src/components/Projects/**: the Projects section, ProjectCard component, and `projects.data.ts` content.
 - **src/components/Build/**: the Build section and `build.data.ts` capability copy, icon colours, and SVG geometry.
+- **src/components/Experience/**: the timeline layout and `experience.data.ts` companies, logos, dates, and role descriptions.
 - **src/components/About/**: the About section and its layout styles.
 - **src/components/Postcards/**: postcard triggers and modal, their colocated styles, and `postcards.data.ts` captions and locations. The native dialog supports Escape, backdrop dismissal, focus restoration, scroll locking, and reduced motion.
 - **src/components/Header/navigation.ts**: navigation links, shared with the section navigation hook.
@@ -51,9 +52,33 @@ Contact links, CV download, metadata, fonts, lazy-loaded images, anchor navigati
 
 Use **npm run format** to format the code and **npm run format:check** to verify formatting.
 
+The app's **.prettierrc.json** defines the shared formatting rules.
+Its **.prettierignore** excludes generated output and public assets.
+
+For format on save in VS Code, open the **app/** folder and install the recommended
+**Prettier - Code formatter** extension (`esbenp.prettier-vscode`). The checked-in
+**.vscode/settings.json** selects Prettier and enables formatting on save. The
+extension uses the same configuration as the command-line scripts.
+
 ## Testing
 
 `npm test` runs browser tests for desktop and mobile using Microsoft Edge. To use a different browser, update the `channel` setting in `playwright.config.ts`.
+
+Tests build the app and serve **dist/**, exercising the production output rather
+than the development server. Coverage is grouped by purpose:
+
+- **portfolio.spec.ts**: section content, career history, responsive overflow,
+  contact links, the CV download, and loaded images with alternative text.
+- **navigation.spec.ts**: section alignment, active links, returning to the top,
+  direct fragment URLs, browser history, and keyboard activation.
+- **postcards.spec.ts**: each photo's accessible caption, touch and keyboard
+  opening, all dismissal methods, scroll and focus restoration, focus trapping,
+  reopening, and motion preferences.
+- **hooks.spec.ts**: layout changes, reduced motion, and observer fallbacks.
+- **helpers.ts**: shared assertions for section alignment and viewport bounds.
+
+Failed tests retain screenshots and Playwright traces under **test-results/**.
+To run a focused group, use `npm test -- tests/navigation.spec.ts`.
 
 ## TypeScript and Code Quality
 
