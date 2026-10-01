@@ -1,5 +1,8 @@
-import { postcards, type PostcardKey } from "@/components/About/postcards.data";
-import "@/components/About/PostcardTrigger.css";
+import {
+  postcards,
+  type PostcardKey,
+} from "@/components/Postcards/postcards.data";
+import "@/components/Postcards/PostcardTrigger.css";
 
 export default function PostcardTrigger({
   postcard,
@@ -9,6 +12,7 @@ export default function PostcardTrigger({
   onOpen: (postcard: PostcardKey) => void;
 }) {
   const photo = postcards[postcard];
+
   return (
     <button
       className="hidden-postcard-trigger"

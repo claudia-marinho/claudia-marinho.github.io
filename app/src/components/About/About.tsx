@@ -1,12 +1,13 @@
 import { useState } from "react";
 import Rays from "@/components/Rays/Rays";
-import PostcardDialog from "@/components/About/PostcardDialog";
-import PostcardTrigger from "@/components/About/PostcardTrigger";
-import type { PostcardKey } from "@/components/About/postcards.data";
+import PostcardDialog from "@/components/Postcards/PostcardDialog";
+import PostcardTrigger from "@/components/Postcards/PostcardTrigger";
+import type { PostcardKey } from "@/components/Postcards/postcards.data";
 import "@/components/About/About.css";
 
 export default function About() {
   const [postcard, setPostcard] = useState<PostcardKey | null>(null);
+
   return (
     <section className="about split" id="about" aria-labelledby="about-heading">
       <div className="about-image">

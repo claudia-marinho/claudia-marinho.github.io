@@ -1,7 +1,10 @@
 import { useEffect, useId, useRef } from "react";
 import { createPortal } from "react-dom";
-import { postcards, type PostcardKey } from "@/components/About/postcards.data";
-import "@/components/About/PostcardDialog.css";
+import {
+  postcards,
+  type PostcardKey,
+} from "@/components/Postcards/postcards.data";
+import "@/components/Postcards/PostcardDialog.css";
 
 export default function PostcardDialog({
   postcard,
@@ -17,20 +20,34 @@ export default function PostcardDialog({
 
   useEffect(() => {
     const dialog = dialogRef.current;
+
+    // A null postcard means the dialog should remain closed.
     if (!postcard || !dialog) return;
-    const opener =
-      document.activeElement instanceof HTMLElement
-        ? document.activeElement
-        : null;
-    const scrollPosition = { left: window.scrollX, top: window.scrollY };
+
+    // Save the reader's place before the browser moves focus into the modal.
+    const focusedElement = document.activeElement;
+    const triggerToRestore =
+      focusedElement instanceof HTMLElement ? focusedElement : null;
+
+    const savedScrollPosition = { left: window.scrollX, top: window.scrollY };
+    const restoreScrollPosition = () => {
+      window.scrollTo({ ...savedScrollPosition, behavior: "instant" });
+    };
+
+    // showModal provides focus trapping and Escape dismissal. The CSS class
+    // locks background scrolling; restore the position after focus has moved.
     dialog.showModal();
     document.documentElement.classList.add("postcard-open");
-    window.scrollTo({ ...scrollPosition, behavior: "instant" });
+    restoreScrollPosition();
+
     return () => {
+      // Closing or changing the postcard releases the lock and returns the
+      // reader to the same trigger and scroll position, without smooth scrolling.
       dialog.close();
       document.documentElement.classList.remove("postcard-open");
-      opener?.focus({ preventScroll: true });
-      window.scrollTo({ ...scrollPosition, behavior: "instant" });
+
+      triggerToRestore?.focus({ preventScroll: true });
+      restoreScrollPosition();
     };
   }, [postcard]);
 

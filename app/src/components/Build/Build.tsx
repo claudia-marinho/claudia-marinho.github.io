@@ -1,3 +1,4 @@
+import { capabilities } from "@/components/Build/build.data";
 import Rays from "@/components/Rays/Rays";
 import "@/components/Build/Build.css";
 
@@ -20,70 +21,32 @@ export default function Build() {
             backend services, deployments and technical coordination.
           </p>
         </div>
+
         <div className="capabilities">
-          <article className="capability">
-            <div className="icon icon-blue" aria-hidden="true">
-              <svg viewBox="0 0 32 32">
-                <rect x="3" y="5" width="26" height="22" rx="2" />
-                <path d="M3 11h26M13 16l-4 4 4 4m6-8 4 4-4 4" />
-              </svg>
-            </div>
-            <div>
-              <h3>Frontend experiences</h3>
-              <p>
-                Responsive, accessible interfaces, from dashboards to tools for
-                media production.
-              </p>
-              <small>React · Next.js · TypeScript · HTML/CSS</small>
-            </div>
-          </article>
-          <article className="capability">
-            <div className="icon icon-lime" aria-hidden="true">
-              <svg viewBox="0 0 32 32">
-                <rect x="3" y="7" width="10" height="7" rx="1" />
-                <rect x="19" y="7" width="10" height="7" rx="1" />
-                <rect x="11" y="21" width="10" height="7" rx="1" />
-                <path d="M8 14v4h8v3m8-7v4h-8" />
-              </svg>
-            </div>
-            <div>
-              <h3>APIs &amp; BFFs</h3>
-              <p>
-                APIs and backend services that bring together the data and
-                functionality an interface needs.
-              </p>
-              <small>Node.js · Express · GraphQL · REST · Python</small>
-            </div>
-          </article>
-          <article className="capability">
-            <div className="icon icon-blue" aria-hidden="true">
-              <svg viewBox="0 0 32 32">
-                <path d="M16 3v18m-6-6 6 6 6-6M5 23v5h22v-5" />
-              </svg>
-            </div>
-            <div>
-              <h3>Delivery</h3>
-              <p>
-                Getting features into production and supporting deployments and
-                releases.
-              </p>
-              <small>Docker · Kubernetes · Helm · CI/CD</small>
-            </div>
-          </article>
-          <article className="capability">
-            <div className="icon icon-lime" aria-hidden="true">
-              <svg viewBox="0 0 32 32">
-                <path d="M6 7h20v15H15l-6 5v-5H6zM11 12h10m-10 5h7" />
-              </svg>
-            </div>
-            <div>
-              <h3>Technical guidance</h3>
-              <p>
-                Reviewing code, sharing what I’ve learned and helping colleagues
-                work through technical decisions.
-              </p>
-            </div>
-          </article>
+          {/* Card content and SVG geometry are defined together in build.data.ts. */}
+          {capabilities.map(
+            ({ id, title, description, technologies, icon }) => (
+              <article className="capability" key={id}>
+                <div className={`icon icon-${icon.colour}`} aria-hidden="true">
+                  <svg viewBox="0 0 32 32">
+                    {icon.rectangles?.map((rectangle, index) => (
+                      <rect key={index} {...rectangle} />
+                    ))}
+
+                    {icon.paths.map((path) => (
+                      <path key={path} d={path} />
+                    ))}
+                  </svg>
+                </div>
+
+                <div>
+                  <h3>{title}</h3>
+                  <p>{description}</p>
+                  {technologies && <small>{technologies}</small>}
+                </div>
+              </article>
+            ),
+          )}
         </div>
       </div>
     </section>
