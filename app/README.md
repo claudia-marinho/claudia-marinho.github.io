@@ -20,6 +20,21 @@ npm run preview
 
 Deploy the contents of **dist/** to a static hosting service. The project uses relative paths so it can also be deployed under a subdirectory.
 
+### Automatic GitHub Pages deployment
+
+The repository's `.github/workflows/deploy.yml` builds **app/dist/** and publishes
+it directly to GitHub Pages whenever you push to **master**. It installs locked
+dependencies, checks lint and formatting, and runs the type-checked production
+build before publishing. You can also run it manually from the Actions tab.
+
+One-time setup: in the repository's **Settings → Pages → Build and deployment**,
+set **Source** to **GitHub Actions**. Commit and push the workflow to activate it.
+
+After setup, edit and commit the source under **app/** as usual. You no longer need
+to copy the build to the repository root or commit generated assets. The existing
+root build is retained for the transition; after the first successful Actions
+deployment, those generated root files can be removed.
+
 ## Project Structure
 
 - **src/components/**: one folder per component, with its TSX and CSS together. Each component imports its own stylesheet.
