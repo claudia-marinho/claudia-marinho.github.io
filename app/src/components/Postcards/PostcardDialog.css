@@ -23,13 +23,34 @@
   margin: 0;
   text-align: center;
 }
-.postcard img {
+.postcard-photo {
+  position: relative;
+  background: #ebe8df;
+}
+.postcard-photo-loading,
+.postcard-photo-error {
+  min-height: min(240px, calc(100dvh - 185px));
+}
+.postcard-placeholder {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  color: var(--navy);
+  font-size: 14px;
+}
+.postcard-photo img {
   display: block;
   width: 100%;
   height: auto;
   max-height: calc(100dvh - 185px);
   object-fit: contain;
   background: #ebe8df;
+  opacity: 0;
+}
+.postcard-photo-ready img {
+  opacity: 1;
 }
 .postcard figcaption {
   font-family: Manrope, sans-serif;
@@ -44,6 +65,7 @@
   opacity: 0.7;
 }
 .postcard-close {
+  z-index: 1;
   position: absolute;
   right: 21px;
   top: 21px;
@@ -64,11 +86,17 @@
   outline-offset: 3px;
 }
 @keyframes postcard-arrive {
-  from {
+  0% {
     opacity: 0;
-    transform: translateY(12px) rotate(var(--postcard-rotation));
+    transform: translateY(24px) rotate(calc(var(--postcard-rotation) - 7deg))
+      scale(0.92);
   }
-  to {
+  65% {
+    opacity: 1;
+    transform: translateY(-4px) rotate(calc(var(--postcard-rotation) + 2deg))
+      scale(1.015);
+  }
+  100% {
     opacity: 1;
     transform: translateY(0) rotate(var(--postcard-rotation));
   }
@@ -82,7 +110,10 @@
   }
 }
 @media (prefers-reduced-motion: no-preference) {
+  .postcard-photo img {
+    transition: opacity 0.3s ease-out;
+  }
   .postcard-dialog[open] {
-    animation: postcard-arrive 0.22s ease-out;
+    animation: postcard-arrive 0.5s ease-out;
   }
 }

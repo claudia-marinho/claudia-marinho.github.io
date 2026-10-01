@@ -21,6 +21,9 @@
 .hero .accent-stroke {
   color: var(--navy);
 }
+.hero-greeting {
+  display: inline-block;
+}
 .hero-title-group,
 .hero-role-group {
   position: relative;
@@ -136,20 +139,41 @@
     font-size: clamp(4.55rem, 16vw, 6.2rem);
   }
 }
+/* A small overshoot gives the entrance a bounce without moving the layout. */
+@keyframes hero-pop {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.97);
+  }
+  65% {
+    opacity: 1;
+    transform: translateY(-5px) scale(1.01);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
 @media (prefers-reduced-motion: no-preference) {
-  .hero-title-group {
-    animation: gentle-rise 0.75s cubic-bezier(0.2, 0.75, 0.25, 1) both;
+  /* Stagger greeting, name, role, description, and call to action. */
+  .hero-greeting {
+    animation: hero-pop 0.65s ease-out backwards;
+  }
+  .hero-word {
+    animation: hero-pop 0.7s 0.1s ease-out backwards;
   }
   .hero-role-group {
-    animation: gentle-rise 0.75s 0.12s cubic-bezier(0.2, 0.75, 0.25, 1) both;
+    animation: hero-pop 0.65s 0.22s ease-out backwards;
   }
-  .hero-copy > p,
+  .hero-copy > p {
+    animation: hero-pop 0.65s 0.32s ease-out backwards;
+  }
   .hero-copy > .button {
-    animation: gentle-rise 0.75s 0.22s cubic-bezier(0.2, 0.75, 0.25, 1) both;
+    animation: hero-pop 0.65s 0.42s ease-out backwards;
   }
-  .hero-rays path {
-    stroke-dasharray: 180;
-    animation: draw-mark 0.7s 0.25s ease-out both;
+  .hero-scribble path {
+    stroke-dasharray: 240;
+    animation: draw-mark 0.7s 0.45s ease-out backwards;
   }
   .hero-image img {
     transition: transform 0.75s cubic-bezier(0.2, 0.7, 0.2, 1);

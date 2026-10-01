@@ -33,3 +33,27 @@
     left: calc(100% + 0.02em);
   }
 }
+/* Rays draw themselves, then settle after a quick playful tilt. */
+@keyframes rays-pop {
+  0% {
+    transform: rotate(-12deg) scale(0.8);
+  }
+  60% {
+    transform: rotate(7deg) scale(1.08);
+  }
+  100% {
+    transform: rotate(0) scale(1);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hero-rays,
+  .reveal-in .rays {
+    transform-origin: left center;
+    animation: rays-pop 0.65s 0.3s ease-out backwards;
+  }
+  .hero-rays path,
+  .reveal-in .rays path {
+    stroke-dasharray: 180;
+    animation: draw-mark 0.65s 0.3s ease-out backwards;
+  }
+}

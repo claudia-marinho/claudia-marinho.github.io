@@ -1,4 +1,21 @@
-app/node_modules/
+# Dependencies and production builds
+node_modules/
 app/dist/
+
+# Test results and coverage
 app/playwright-report/
 app/test-results/
+app/blob-report/
+app/coverage/
+
+# Tool caches and TypeScript build metadata
+.cache/
+.vite/
+*.tsbuildinfo
+
+# Personal editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

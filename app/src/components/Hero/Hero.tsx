@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="hero-copy panel">
         <div className="hero-title-group">
           <h1 id="hero-heading">
-            HI, I’M
+            <span className="hero-greeting">HI, I’M</span>
             <br />
             <span className="word-anchor hero-word">
               CLÁUDIA

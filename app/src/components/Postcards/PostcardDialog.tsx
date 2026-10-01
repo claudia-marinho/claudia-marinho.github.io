@@ -1,5 +1,6 @@
 import { useEffect, useId, useRef } from "react";
 import { createPortal } from "react-dom";
+import PostcardPhoto from "@/components/Postcards/PostcardPhoto";
 import {
   postcards,
   type PostcardKey,
@@ -81,7 +82,12 @@ export default function PostcardDialog({
       </button>
       {photo && (
         <figure className="postcard">
-          <img src={`assets/postcard-${postcard}.jpg`} alt={photo.alt} />
+          {/* A new postcard starts with its own loading state, including reopening. */}
+          <PostcardPhoto
+            key={postcard}
+            src={`assets/postcard-${postcard}.jpg`}
+            alt={photo.alt}
+          />
           <figcaption id={captionId}>{photo.caption}</figcaption>
           <p className="postcard-location" id={locationId}>
             {photo.location}
