@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { useState } from "react";
 
 export default function PostcardPhoto({
@@ -7,6 +8,7 @@ export default function PostcardPhoto({
   src: string;
   alt: string;
 }) {
+  const { t } = useTranslation();
   const [status, setStatus] = useState<"loading" | "ready" | "error">(
     "loading",
   );
@@ -16,7 +18,7 @@ export default function PostcardPhoto({
       {/* Keep feedback visible until the browser has loaded the photo. */}
       {status !== "ready" && (
         <div className="postcard-placeholder" role="status">
-          {status === "loading" ? "Loading photo…" : "Photo couldn’t load."}
+          {status === "loading" ? t("postcards.loading") : t("postcards.error")}
         </div>
       )}
 

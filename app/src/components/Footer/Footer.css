@@ -11,7 +11,7 @@
   padding: 70px clamp(30px, 4vw, 80px);
 }
 .footer h2 {
-  font-size: clamp(4.1rem, 6.7vw, 8rem);
+  font-size: clamp(4.1rem, 6.7vw, 7rem);
   line-height: 0.94;
   margin-bottom: 23px;
   white-space: normal;

@@ -1,8 +1,10 @@
+import { useTranslation } from "react-i18next";
 import { capabilities } from "@/components/Build/build.data";
 import Rays from "@/components/Rays/Rays";
 import "@/components/Build/Build.css";
 
 export default function Build() {
+  const { t } = useTranslation();
   return (
     <section className="build" id="build" aria-labelledby="build-heading">
       <div className="build-inner">
@@ -10,16 +12,14 @@ export default function Build() {
           <div className="build-title-group">
             <h2 id="build-heading">
               <span className="word-anchor build-word">
-                WHAT
+                {t("build.titleStart")}
                 <Rays className="build-rays" />
               </span>
-              <br />I BUILD
+              <br />
+              {t("build.titleEnd")}
             </h2>
           </div>
-          <p>
-            Most of my work centres on React and TypeScript, but I also work on
-            backend services, deployments and technical coordination.
-          </p>
+          <p>{t("build.intro")}</p>
         </div>
 
         <div className="capabilities">
@@ -40,8 +40,8 @@ export default function Build() {
                 </div>
 
                 <div>
-                  <h3>{title}</h3>
-                  <p>{description}</p>
+                  <h3>{t(title)}</h3>
+                  <p>{t(description)}</p>
                   {technologies && <small>{technologies}</small>}
                 </div>
               </article>

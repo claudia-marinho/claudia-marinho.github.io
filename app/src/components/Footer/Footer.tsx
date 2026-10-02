@@ -1,23 +1,22 @@
+import { useTranslation } from "react-i18next";
 import { footerLinks } from "@/components/Footer/footer.data";
 import Rays from "@/components/Rays/Rays";
 import "@/components/Footer/Footer.css";
 
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <footer className="footer split">
       <div className="footer-copy panel">
         <h2>
-          <span className="footer-line-one">LET’S BUILD</span>
+          <span className="footer-line-one">{t("footer.titleStart")}</span>
           <br />
           <span className="word-anchor footer-word">
-            WHAT’S NEXT.
+            {t("footer.titleEnd")}
             <Rays className="footer-rays" />
           </span>
         </h2>
-        <p>
-          Want to talk about a project or working together? I’d love to hear
-          from you.
-        </p>
+        <p>{t("footer.description")}</p>
         <div className="footer-links">
           {/* Link destinations and icon geometry live in footer.data.ts. */}
           {footerLinks.map(({ label, href, openInNewTab, download, icon }) => (
@@ -38,17 +37,13 @@ export default function Footer() {
                 ))}
               </svg>
 
-              {label}
+              {t(label)}
             </a>
           ))}
         </div>
       </div>
       <div className="footer-image">
-        <img
-          src="assets/mountains.jpg"
-          alt="Mountain landscape with alpine wildflowers at dusk"
-          loading="lazy"
-        />
+        <img src="assets/mountains.jpg" alt={t("footer.alt")} loading="lazy" />
       </div>
     </footer>
   );

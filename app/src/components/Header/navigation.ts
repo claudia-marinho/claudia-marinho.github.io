@@ -1,6 +1,6 @@
 export const navigation = [
-  { id: "about", label: "About" },
-  { id: "build", label: "What I build" },
-  { id: "experience", label: "Experience" },
-  { id: "projects", label: "Projects" },
+  { id: "about", label: "nav.about" },
+  { id: "build", label: "nav.build" },
+  { id: "experience", label: "nav.experience" },
+  { id: "projects", label: "nav.projects" },
 ];

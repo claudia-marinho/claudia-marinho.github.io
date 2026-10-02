@@ -19,7 +19,7 @@ type FooterLink = {
 
 export const footerLinks: FooterLink[] = [
   {
-    label: "Email",
+    label: "footer.email",
     href: "mailto:claudia.m.r.marinho@gmail.com",
     icon: {
       rectangles: [{ x: 2, y: 4, width: 20, height: 16, rx: 2 }],
@@ -27,7 +27,7 @@ export const footerLinks: FooterLink[] = [
     },
   },
   {
-    label: "LinkedIn",
+    label: "footer.linkedin",
     href: "https://www.linkedin.com/in/claudia-marinho/",
     openInNewTab: true,
     icon: {
@@ -36,7 +36,7 @@ export const footerLinks: FooterLink[] = [
     },
   },
   {
-    label: "GitHub",
+    label: "footer.github",
     href: "https://github.com/claudia-marinho",
     openInNewTab: true,
     icon: {
@@ -46,7 +46,7 @@ export const footerLinks: FooterLink[] = [
     },
   },
   {
-    label: "Save as PDF",
+    label: "footer.pdf",
     href: "assets/CV_Claudia_Marinho.pdf",
     download: "CV_Claudia_Marinho.pdf",
     icon: {

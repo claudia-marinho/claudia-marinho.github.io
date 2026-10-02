@@ -1,0 +1,62 @@
+.language-selector {
+  position: fixed;
+  right: max(20px, env(safe-area-inset-right));
+  bottom: max(20px, env(safe-area-inset-bottom));
+  z-index: 30;
+  display: flex;
+  gap: 2px;
+  padding: 4px;
+  border: 1px solid rgb(7 24 47 / 18%);
+  border-radius: 999px;
+  background: var(--cream);
+  box-shadow: 0 3px 14px rgb(7 24 47 / 12%);
+}
+.language-selector button {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--navy);
+  font:
+    700 12px/1 Manrope,
+    Arial,
+    sans-serif;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.language-selector button[aria-pressed="true"] {
+  background: var(--navy);
+  color: var(--cream);
+}
+.language-selector button:hover {
+  background: var(--sky);
+  color: var(--navy);
+}
+.language-selector button:focus-visible {
+  outline: 3px solid var(--lime);
+  outline-offset: 2px;
+}
+html[lang="pt-PT"] .hero-copy {
+  min-width: 0;
+}
+html[lang="pt-PT"] .hero-greeting {
+  font-size: 0.82em;
+}
+html[lang="pt-PT"] .footer-word {
+  max-width: 100%;
+  white-space: normal;
+}
+html[lang="pt-PT"] .footer h2 {
+  max-width: 100%;
+}
+html[lang="pt-PT"] .footer-word .footer-rays {
+  left: auto;
+  right: -0.25em;
+}
+@media print {
+  .language-selector {
+    display: none;
+  }
+}

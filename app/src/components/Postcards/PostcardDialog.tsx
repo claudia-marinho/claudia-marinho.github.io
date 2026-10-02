@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { useEffect, useId, useRef } from "react";
 import { createPortal } from "react-dom";
 import PostcardPhoto from "@/components/Postcards/PostcardPhoto";
@@ -14,6 +15,7 @@ export default function PostcardDialog({
   postcard: PostcardKey | null;
   onClose: () => void;
 }) {
+  const { t } = useTranslation();
   const dialogRef = useRef<HTMLDialogElement>(null);
   const captionId = useId();
   const locationId = useId();
@@ -75,7 +77,7 @@ export default function PostcardDialog({
       <button
         className="postcard-close"
         type="button"
-        aria-label="Close photo"
+        aria-label={t("postcards.close")}
         onClick={() => dialogRef.current?.close()}
       >
         ×
@@ -86,11 +88,11 @@ export default function PostcardDialog({
           <PostcardPhoto
             key={postcard}
             src={`assets/postcard-${postcard}.jpg`}
-            alt={photo.alt}
+            alt={t(photo.alt)}
           />
-          <figcaption id={captionId}>{photo.caption}</figcaption>
+          <figcaption id={captionId}>{t(photo.caption)}</figcaption>
           <p className="postcard-location" id={locationId}>
-            {photo.location}
+            {t(photo.location)}
           </p>
         </figure>
       )}

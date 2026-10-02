@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import {
   postcards,
   type PostcardKey,
@@ -11,13 +12,14 @@ export default function PostcardTrigger({
   postcard: PostcardKey;
   onOpen: (postcard: PostcardKey) => void;
 }) {
+  const { t } = useTranslation();
   const photo = postcards[postcard];
 
   return (
     <button
       className="hidden-postcard-trigger"
       type="button"
-      aria-label={photo.label}
+      aria-label={t(photo.label)}
       aria-haspopup="dialog"
       onClick={() => onOpen(postcard)}
     >

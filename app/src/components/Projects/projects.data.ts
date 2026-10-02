@@ -9,29 +9,26 @@ export interface Project {
 export const projects: readonly Project[] = [
   {
     name: "CinEd",
-    subtitle: "European cinema in classrooms",
-    description:
-      "I worked on CinEd over several years, developing features, adding localisation and migrating users from the previous platform. It’s a multilingual film-education platform serving 3,000+ users across 12+ countries.",
+    subtitle: "projects.cined.subtitle",
+    description: "projects.cined.description",
     image: "assets/cined-composition.png",
-    alt: "CinEd film education platform shown in layered screen views",
+    alt: "projects.cined.alt",
     theme: "blue",
   },
   {
     name: "XReco",
-    subtitle: "Finding and working with XR media",
-    description:
-      "I was the main contributor to XReco’s core web application. My work brought together asset uploads, multimodal search, AI-generated metadata, 3D reconstruction and licensing workflows.",
+    subtitle: "projects.xreco.subtitle",
+    description: "projects.xreco.description",
     image: "assets/xreco-composition.png",
-    alt: "XReco media discovery platform shown across layered screens",
+    alt: "projects.xreco.alt",
     theme: "green",
   },
   {
     name: "TRUE",
-    subtitle: "A newsroom for every school",
-    description:
-      "I worked as a full-stack developer and technical coordinator on TRUE, building editorial tools, dashboards and publishing workflows for students and teachers in 200+ Portuguese schools.",
+    subtitle: "projects.true.subtitle",
+    description: "projects.true.description",
     image: "assets/true-composition.png",
-    alt: "TRUE school newsroom and publishing platform shown in layered screens",
+    alt: "projects.true.alt",
     theme: "blue",
   },
 ];

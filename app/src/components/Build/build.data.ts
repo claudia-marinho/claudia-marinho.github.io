@@ -21,9 +21,8 @@ type Capability = {
 export const capabilities: Capability[] = [
   {
     id: "frontend",
-    title: "Frontend experiences",
-    description:
-      "Responsive, accessible interfaces, from dashboards to tools for media production.",
+    title: "build.frontend.title",
+    description: "build.frontend.description",
     technologies: "React · Next.js · TypeScript · HTML/CSS",
     icon: {
       colour: "blue",
@@ -33,9 +32,8 @@ export const capabilities: Capability[] = [
   },
   {
     id: "backend",
-    title: "APIs & BFFs",
-    description:
-      "APIs and backend services that bring together the data and functionality an interface needs.",
+    title: "build.backend.title",
+    description: "build.backend.description",
     technologies: "Node.js · Express · GraphQL · REST · Python",
     icon: {
       colour: "lime",
@@ -49,9 +47,8 @@ export const capabilities: Capability[] = [
   },
   {
     id: "delivery",
-    title: "Delivery",
-    description:
-      "Getting features into production and supporting deployments and releases.",
+    title: "build.delivery.title",
+    description: "build.delivery.description",
     technologies: "Docker · Kubernetes · Helm · CI/CD",
     icon: {
       colour: "blue",
@@ -60,9 +57,8 @@ export const capabilities: Capability[] = [
   },
   {
     id: "guidance",
-    title: "Technical guidance",
-    description:
-      "Reviewing code, sharing what I’ve learned and helping colleagues work through technical decisions.",
+    title: "build.guidance.title",
+    description: "build.guidance.description",
     icon: {
       colour: "lime",
       paths: ["M6 7h20v15H15l-6 5v-5H6zM11 12h10m-10 5h7"],

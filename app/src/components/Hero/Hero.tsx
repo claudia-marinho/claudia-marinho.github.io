@@ -1,13 +1,15 @@
+import { useTranslation } from "react-i18next";
 import Rays from "@/components/Rays/Rays";
 import "@/components/Hero/Hero.css";
 
 export default function Hero() {
+  const { t } = useTranslation();
   return (
     <section className="hero split" aria-labelledby="hero-heading">
       <div className="hero-copy panel">
         <div className="hero-title-group">
           <h1 id="hero-heading">
-            <span className="hero-greeting">HI, I’M</span>
+            <span className="hero-greeting">{t("hero.greeting")}</span>
             <br />
             <span className="word-anchor hero-word">
               CLÁUDIA
@@ -19,9 +21,7 @@ export default function Hero() {
           </h1>
         </div>
         <div className="hero-role-group">
-          <p className="hero-role">
-            Frontend-focused full-stack software engineer.
-          </p>
+          <p className="hero-role">{t("hero.role")}</p>
           <svg
             className="scribble hero-scribble"
             viewBox="0 0 110 45"
@@ -30,18 +30,15 @@ export default function Hero() {
             <path d="M4 26 Q42 3 103 8 M20 39 Q55 18 108 22" />
           </svg>
         </div>
-        <p>
-          I build web applications, with a focus on interfaces that are easy to
-          use and the APIs behind them.
-        </p>
+        <p>{t("hero.description")}</p>
         <a className="button" href="#projects">
-          Explore my work <span aria-hidden="true">→</span>
+          {t("hero.cta")} <span aria-hidden="true">→</span>
         </a>
       </div>
       <div className="hero-image">
         <img
           src="assets/portrait.jpg"
-          alt="Cláudia smiling in the Swiss Alps"
+          alt={t("hero.alt")}
           fetchPriority="high"
         />
       </div>

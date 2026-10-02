@@ -1,8 +1,10 @@
+import { useTranslation } from "react-i18next";
 import type { Project } from "@/components/Projects/projects.data";
 import Rays from "@/components/Rays/Rays";
 import "@/components/Projects/ProjectCard.css";
 
 export default function ProjectCard({ project }: { project: Project }) {
+  const { t } = useTranslation();
   const text = (
     <div className="project-text">
       <h3>
@@ -11,13 +13,13 @@ export default function ProjectCard({ project }: { project: Project }) {
           <Rays className="project-rays" />
         </span>
       </h3>
-      <p className="project-subtitle">{project.subtitle}</p>
-      <p>{project.description}</p>
+      <p className="project-subtitle">{t(project.subtitle)}</p>
+      <p>{t(project.description)}</p>
     </div>
   );
   const art = (
     <div className="project-art">
-      <img src={project.image} alt={project.alt} loading="lazy" />
+      <img src={project.image} alt={t(project.alt)} loading="lazy" />
     </div>
   );
   return (

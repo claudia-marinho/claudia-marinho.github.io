@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "about": "About",
+    "build": "What I build",
+    "experience": "Experience",
+    "projects": "Projects",
+    "label": "Main navigation"
+  },
+  "hero": {
+    "greeting": "HI, I’M",
+    "role": "Frontend-focused full-stack software engineer.",
+    "description": "I build web applications, with a focus on interfaces that are easy to use and the APIs behind them.",
+    "cta": "Explore my work",
+    "alt": "Cláudia smiling in the Swiss Alps"
+  },
+  "about": {
+    "titleStart": "A",
+    "titleAccent": "BIT",
+    "titleEnd": "ABOUT ME",
+    "alt": "Cláudia seated on a mountain slope looking towards the Alps",
+    "intro": "I’m a software engineer with 7+ years of experience and a strong frontend focus. I like building products that combine a good user experience with solid engineering. My work spans interfaces, APIs and taking features into production.",
+    "values": "I care about thoughtful UX, maintainable code, and working with people who value clarity and collaboration.",
+    "mountains": "Away from the keyboard, you’ll usually find me thinking about mountains",
+    "japan": "planning a trip to Japan",
+    "or": ", or",
+    "metal": "listening to metal"
+  },
+  "build": {
+    "titleStart": "WHAT",
+    "titleEnd": "I BUILD",
+    "intro": "Most of my work centres on React and TypeScript, but I also work on backend services, deployments and technical coordination.",
+    "frontend": {
+      "title": "Frontend experiences",
+      "description": "Responsive, accessible interfaces, from dashboards to tools for media production."
+    },
+    "backend": {
+      "description": "APIs and backend services that bring together the data and functionality an interface needs.",
+      "title": "APIs & BFFs"
+    },
+    "delivery": {
+      "title": "Delivery",
+      "description": "Getting features into production and supporting deployments and releases."
+    },
+    "guidance": {
+      "title": "Technical guidance",
+      "description": "Reviewing code, sharing what I’ve learned and helping colleagues work through technical decisions."
+    }
+  },
+  "experience": {
+    "title": "EXPERIENCE",
+    "evs": {
+      "dates": "November 2024–present",
+      "alt": "EVS logo"
+    },
+    "engineerIII": {
+      "dates": "April 2026–present",
+      "title": "Software Engineer III",
+      "description": "Building interfaces and Backend-for-Frontend services for professional broadcast products with React, TypeScript and GraphQL."
+    },
+    "engineerII": {
+      "dates": "November 2024–March 2026",
+      "title": "Software Engineer II",
+      "description": "Worked across XR and sustainable streaming projects, from frontend features and backend integrations to Kubernetes deployments."
+    },
+    "mog": {
+      "dates": "January 2019–October 2024",
+      "alt": "MOG Technologies logo"
+    },
+    "manager": {
+      "dates": "October 2021–October 2024",
+      "title": "Software Engineer & Technical Project Manager",
+      "description": "Built media, education and streaming platforms while contributing to technical direction, project coordination and mentoring."
+    },
+    "juniorManager": {
+      "dates": "January 2020–September 2021",
+      "title": "Software Engineer & Junior Technical Project Manager",
+      "description": "Developed web platforms, dashboards and digital marketplaces across European research projects."
+    },
+    "junior": {
+      "title": "Junior Software Engineer",
+      "description": "Built a real-time messaging platform for my Master’s thesis, later integrated into research projects.",
+      "dates": "2019"
+    }
+  },
+  "projects": {
+    "titleStart": "SELECTED",
+    "titleEnd": "WORK",
+    "intro": "Film education, XR media and school newsrooms.",
+    "description": "A few projects I’ve worked on, and what I contributed to each.",
+    "cined": {
+      "subtitle": "European cinema in classrooms",
+      "description": "I worked on CinEd over several years, developing features, adding localisation and migrating users from the previous platform. It’s a multilingual film-education platform serving 3,000+ users across 12+ countries.",
+      "alt": "CinEd film education platform shown in layered screen views"
+    },
+    "xreco": {
+      "subtitle": "Finding and working with XR media",
+      "description": "I was the main contributor to XReco’s core web application. My work brought together asset uploads, multimodal search, AI-generated metadata, 3D reconstruction and licensing workflows.",
+      "alt": "XReco media discovery platform shown across layered screens"
+    },
+    "true": {
+      "subtitle": "A newsroom for every school",
+      "description": "I worked as a full-stack developer and technical coordinator on TRUE, building editorial tools, dashboards and publishing workflows for students and teachers in 200+ Portuguese schools.",
+      "alt": "TRUE school newsroom and publishing platform shown in layered screens"
+    }
+  },
+  "footer": {
+    "titleStart": "LET’S BUILD",
+    "titleEnd": "WHAT’S NEXT.",
+    "description": "Want to talk about a project or working together? I’d love to hear from you.",
+    "pdf": "Save as PDF",
+    "alt": "Mountain landscape with alpine wildflowers at dusk",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "postcards": {
+    "close": "Close photo",
+    "loading": "Loading photo…",
+    "error": "Photo couldn’t load.",
+    "mountains": {
+      "label": "Discover a mountains photo",
+      "caption": "My favourite kind of path has very little pavement.",
+      "alt": "Cláudia hiking on Ruta del Cares in Asturias.",
+      "location": "Ruta del Cares · Asturias"
+    },
+    "japan": {
+      "label": "Discover a Japan photo",
+      "caption": "A table for one, two Pikachus for company.",
+      "alt": "Cláudia sitting between two large Pikachus at the Pokémon Café in Tokyo.",
+      "location": "Pokémon Café · Tokyo"
+    },
+    "metal": {
+      "label": "Discover a metal photo",
+      "caption": "The person behind the polite emails. 🤘",
+      "alt": "Cláudia smiling and making the metal horns gesture at Vilar de Mouros festival.",
+      "location": "Vilar de Mouros"
+    }
+  },
+  "language": {
+    "label": "Site language"
+  }
+}
