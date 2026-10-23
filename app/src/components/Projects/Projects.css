@@ -5,7 +5,7 @@
   background: var(--cream);
   width: min(1510px, calc(100% - 12%));
   margin: auto;
-  padding-top: 78px;
+  padding-top: 52px;
   padding-bottom: 52px;
 }
 .selected-head h2 {
@@ -41,7 +41,7 @@
   }
   .selected-head {
     width: calc(100% - 48px);
-    padding-top: 64px;
+    padding-top: 40px;
     padding-bottom: 42px;
   }
   .selected-head h2 {

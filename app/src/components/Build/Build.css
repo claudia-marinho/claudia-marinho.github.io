@@ -105,17 +105,18 @@
 }
 @media (max-width: 760px) {
   .build {
-    padding: 70px 0;
+    padding: 64px 0;
   }
   .build-inner {
     width: calc(100% - 48px);
     grid-template-columns: 1fr;
+    gap: 32px;
   }
   .build-intro p {
     max-width: 630px;
   }
   .capabilities {
-    margin-top: 28px;
+    margin-top: 0;
   }
   .build-word .build-rays {
     left: calc(100% + 0.02em);

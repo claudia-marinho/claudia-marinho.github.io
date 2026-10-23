@@ -129,7 +129,13 @@
     width: 60px;
   }
 }
-@media (max-width: 539px) {
+@media (max-width: 760px) {
+  .hero-copy {
+    padding-block: 64px;
+  }
+}
+
+@media (max-width: 489px) {
   .hero-scribble {
     left: 78%;
   }

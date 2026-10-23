@@ -111,7 +111,7 @@
   .footer-copy {
     width: 100%;
     min-width: 0;
-    padding: 65px 24px;
+    padding: 64px 24px;
   }
   .footer h2 {
     font-size: clamp(3.05rem, 11vw, 5rem);

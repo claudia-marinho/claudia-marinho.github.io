@@ -55,6 +55,11 @@
     left: calc(100% + 0.02em);
   }
 }
+@media (max-width: 760px) {
+  .about-copy {
+    padding-block: 64px;
+  }
+}
 @media (prefers-reduced-motion: no-preference) {
   .about-image img {
     transition: transform 0.75s cubic-bezier(0.2, 0.7, 0.2, 1);

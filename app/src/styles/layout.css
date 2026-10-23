@@ -19,6 +19,11 @@
     padding-inline: clamp(24px, 7vw, 52px);
   }
 }
+@media (max-width: 760px) {
+  .panel {
+    padding-inline: 24px;
+  }
+}
 @media print {
   .panel {
     padding: 20px 0;

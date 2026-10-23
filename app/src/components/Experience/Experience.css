@@ -1,6 +1,6 @@
 .experience {
   background: var(--cream);
-  padding: 88px 0 100px;
+  padding: 88px 0 64px;
 }
 .experience .content {
   width: min(1510px, calc(100% - 12%));
@@ -150,6 +150,10 @@
   }
 }
 @media (max-width: 760px) {
+  .experience {
+    padding-top: 64px;
+    padding-bottom: 48px;
+  }
   .experience-word .experience-rays {
     width: 0.34em;
   }
