@@ -50,7 +50,9 @@ for (const width of [1440, 390]) {
             element.getAnimations().map((animation) => animation.finished),
           ),
         );
-      const cta = page.getByRole("link", { name: "Explore my work" });
+      const cta = page.getByRole("link", {
+        name: "Explore my work",
+      });
       await cta.hover();
       await expect(cta).toHaveCSS("transform", "matrix(1, 0, 0, 1, 0, -3)");
     });

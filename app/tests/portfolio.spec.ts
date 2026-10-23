@@ -17,7 +17,7 @@ for (const width of [1440, 900, 760, 390]) {
       );
       await expect(page.locator("main > section")).toHaveCount(5);
       await expect(page.locator(".capability h3")).toHaveText([
-        "Frontend experiences",
+        "Web interfaces",
         "APIs & BFFs",
         "Delivery",
         "Technical guidance",
@@ -75,7 +75,7 @@ test.describe("footer links and assets", () => {
 
   test("CV download completes with the intended filename", async ({ page }) => {
     const downloadPromise = page.waitForEvent("download");
-    await page.getByRole("link", { name: "Save as PDF" }).click();
+    await page.getByRole("link", { name: "Download my CV" }).click();
     const download = await downloadPromise;
 
     expect(download.suggestedFilename()).toBe("CV_Claudia_Marinho.pdf");

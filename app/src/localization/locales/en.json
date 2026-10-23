@@ -8,8 +8,8 @@
   },
   "hero": {
     "greeting": "HI, I’M",
-    "role": "Frontend-focused full-stack software engineer.",
-    "description": "I build web applications, with a focus on interfaces that are easy to use and the APIs behind them.",
+    "role": "Full-stack engineer with a frontend focus.",
+    "description": "I build web apps that are easy to use, along with the services that keep them running.",
     "cta": "Explore my work",
     "alt": "Cláudia smiling in the Swiss Alps"
   },
@@ -18,9 +18,9 @@
     "titleAccent": "BIT",
     "titleEnd": "ABOUT ME",
     "alt": "Cláudia seated on a mountain slope looking towards the Alps",
-    "intro": "I’m a software engineer with 7+ years of experience and a strong frontend focus. I like building products that combine a good user experience with solid engineering. My work spans interfaces, APIs and taking features into production.",
-    "values": "I care about thoughtful UX, maintainable code, and working with people who value clarity and collaboration.",
-    "mountains": "Away from the keyboard, you’ll usually find me thinking about mountains",
+    "intro": "I’m a software engineer with 7+ years of experience and a soft spot for frontend. I like building apps that are easy to use and writing code that’s easy to maintain. I also work on APIs, backend services and deployments.",
+    "values": "I like teams where we can ask questions, bounce ideas around and learn from each other.",
+    "mountains": "Away from the keyboard, I’m usually thinking about mountains",
     "japan": "planning a trip to Japan",
     "or": ", or",
     "metal": "listening to metal"
@@ -28,13 +28,13 @@
   "build": {
     "titleStart": "WHAT",
     "titleEnd": "I BUILD",
-    "intro": "Most of my work centres on React and TypeScript, but I also work on backend services, deployments and technical coordination.",
+    "intro": "I mostly work with React and TypeScript, and like working through technical decisions with the team.",
     "frontend": {
-      "title": "Frontend experiences",
+      "title": "Web interfaces",
       "description": "Responsive, accessible interfaces, from dashboards to tools for media production."
     },
     "backend": {
-      "description": "APIs and backend services that bring together the data and functionality an interface needs.",
+      "description": "APIs and Backend-for-Frontend services that give the interface the data and functionality it needs.",
       "title": "APIs & BFFs"
     },
     "delivery": {
@@ -43,7 +43,7 @@
     },
     "guidance": {
       "title": "Technical guidance",
-      "description": "Reviewing code, sharing what I’ve learned and helping colleagues work through technical decisions."
+      "description": "Reviewing code, sharing what I’ve learned and helping teammates find solutions to technical challenges."
     }
   },
   "experience": {
@@ -55,12 +55,12 @@
     "engineerIII": {
       "dates": "April 2026–present",
       "title": "Software Engineer III",
-      "description": "Building interfaces and Backend-for-Frontend services for professional broadcast products with React, TypeScript and GraphQL."
+      "description": "I build interfaces and Backend-for-Frontend services for professional broadcast products, using React, TypeScript and GraphQL."
     },
     "engineerII": {
       "dates": "November 2024–March 2026",
       "title": "Software Engineer II",
-      "description": "Worked across XR and sustainable streaming projects, from frontend features and backend integrations to Kubernetes deployments."
+      "description": "I worked on XR and sustainable streaming projects, from frontend features and backend integrations to Kubernetes deployments."
     },
     "mog": {
       "dates": "January 2019–October 2024",
@@ -69,45 +69,45 @@
     "manager": {
       "dates": "October 2021–October 2024",
       "title": "Software Engineer & Technical Project Manager",
-      "description": "Built media, education and streaming platforms while contributing to technical direction, project coordination and mentoring."
+      "description": "I built platforms for media, education and streaming, while helping with technical decisions, project coordination and mentoring."
     },
     "juniorManager": {
       "dates": "January 2020–September 2021",
       "title": "Software Engineer & Junior Technical Project Manager",
-      "description": "Developed web platforms, dashboards and digital marketplaces across European research projects."
+      "description": "I built web platforms, dashboards and digital marketplaces as part of European research projects."
     },
     "junior": {
       "title": "Junior Software Engineer",
-      "description": "Built a real-time messaging platform for my Master’s thesis, later integrated into research projects.",
+      "description": "For my master’s thesis, I built a real-time messaging platform that later became part of research projects.",
       "dates": "2019"
     }
   },
   "projects": {
     "titleStart": "SELECTED",
     "titleEnd": "WORK",
-    "intro": "Film education, XR media and school newsrooms.",
-    "description": "A few projects I’ve worked on, and what I contributed to each.",
+    "intro": "Cinema in classrooms, XR media and school newsrooms.",
+    "description": "A few projects I’ve worked on, and what I did on each.",
     "cined": {
       "subtitle": "European cinema in classrooms",
-      "description": "I worked on CinEd over several years, developing features, adding localisation and migrating users from the previous platform. It’s a multilingual film-education platform serving 3,000+ users across 12+ countries.",
+      "description": "I worked on CinEd for several years, adding features, adapting it for more languages and migrating users from the old platform. It helps bring films into classrooms and is used by 3,000+ people across 12+ countries.",
       "alt": "CinEd film education platform shown in layered screen views"
     },
     "xreco": {
-      "subtitle": "Finding and working with XR media",
-      "description": "I was the main contributor to XReco’s core web application. My work brought together asset uploads, multimodal search, AI-generated metadata, 3D reconstruction and licensing workflows.",
+      "subtitle": "Tools for working with XR media",
+      "description": "I was the main developer on XReco’s core web app. My work covered media uploads, multimodal search, AI-generated metadata, 3D reconstruction and licensing workflows.",
       "alt": "XReco media discovery platform shown across layered screens"
     },
     "true": {
       "subtitle": "A newsroom for every school",
-      "description": "I worked as a full-stack developer and technical coordinator on TRUE, building editorial tools, dashboards and publishing workflows for students and teachers in 200+ Portuguese schools.",
+      "description": "On TRUE, I worked as a full-stack developer and technical coordinator, building editorial tools, dashboards and publishing workflows for students and teachers in 200+ Portuguese schools.",
       "alt": "TRUE school newsroom and publishing platform shown in layered screens"
     }
   },
   "footer": {
     "titleStart": "LET’S BUILD",
     "titleEnd": "WHAT’S NEXT.",
-    "description": "Want to talk about a project or working together? I’d love to hear from you.",
-    "pdf": "Save as PDF",
+    "description": "Have a project in mind, or think we’d work well together? Drop me a message.",
+    "pdf": "Download my CV",
     "alt": "Mountain landscape with alpine wildflowers at dusk",
     "email": "Email",
     "linkedin": "LinkedIn",

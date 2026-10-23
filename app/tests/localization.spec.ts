@@ -49,7 +49,7 @@ test("switches the whole portfolio and remembers the chosen language", async ({
   await expect(page.locator("#projects")).toContainText(
     "Cinema europeu nas salas de aula",
   );
-  await expect(page.locator("footer")).toContainText("Guardar PDF");
+  await expect(page.locator("footer")).toContainText("Descarregar o meu CV");
   await page.reload();
   await expect(page.locator("h1")).toContainText("OLÁ, SOU A");
   await page

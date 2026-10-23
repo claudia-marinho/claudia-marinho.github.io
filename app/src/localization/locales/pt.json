@@ -8,9 +8,9 @@
   },
   "hero": {
     "greeting": "OLÁ, SOU A",
-    "role": "Engenheira de software full-stack com foco em frontend.",
-    "description": "Desenvolvo aplicações web, desde interfaces intuitivas às APIs que lhes dão suporte.",
-    "cta": "Explora o meu trabalho",
+    "role": "Engenheira full-stack com foco em frontend.",
+    "description": "Desenvolvo aplicações web, das interfaces às APIs que lhes dão suporte.",
+    "cta": "Vê o que tenho feito",
     "alt": "Cláudia a sorrir nos Alpes suíços"
   },
   "about": {
@@ -18,9 +18,9 @@
     "titleAccent": "POUCO",
     "titleEnd": "SOBRE MIM",
     "alt": "Cláudia sentada numa encosta a olhar para os Alpes",
-    "intro": "Sou engenheira de software com mais de 7 anos de experiência e um forte foco em frontend. Gosto de criar produtos intuitivos, bem estruturados e fáceis de manter. Trabalho tanto em interfaces e APIs como em levar funcionalidades até produção.",
-    "values": "Valorizo uma boa experiência de utilização, código fácil de manter e trabalhar com pessoas que dão importância à clareza e à colaboração.",
-    "mountains": "Longe do teclado, é provável que me encontres a pensar em montanhas",
+    "intro": "Sou engenheira de software há mais de 7 anos e tenho um gosto especial por frontend. Gosto de criar aplicações fáceis de usar e escrever código fácil de manter. Também trabalho com APIs, serviços de backend e deployments.",
+    "values": "Gosto de equipas onde podemos fazer perguntas, trocar ideias e aprender uns com os outros.",
+    "mountains": "Longe do teclado, costumo estar a pensar em montanhas",
     "japan": "a planear uma viagem ao Japão",
     "or": ", ou",
     "metal": "a ouvir metal"
@@ -28,22 +28,22 @@
   "build": {
     "titleStart": "O QUE",
     "titleEnd": "FAÇO",
-    "intro": "Grande parte do meu trabalho centra-se em React e TypeScript, mas também desenvolvo serviços de backend, acompanho deployments e contribuo para decisões técnicas.",
+    "intro": "Trabalho sobretudo com React e TypeScript e gosto de participar nas decisões técnicas com a equipa.",
     "frontend": {
-      "title": "Experiências de frontend",
-      "description": "Interfaces responsivas e acessíveis, de dashboards a ferramentas para produção de conteúdos multimédia."
+      "title": "Interfaces web",
+      "description": "Interfaces responsivas e acessíveis, desde dashboards a ferramentas de produção multimédia."
     },
     "backend": {
-      "description": "APIs e serviços de backend que reúnem os dados e as funcionalidades de que uma interface precisa.",
+      "description": "APIs e serviços Backend-for-Frontend que dão à interface os dados e as funcionalidades de que precisa.",
       "title": "APIs & BFFs"
     },
     "delivery": {
-      "title": "Entrega e produção",
-      "description": "Levar funcionalidades até produção e acompanhar deployments e lançamentos."
+      "title": "Deployments e lançamentos",
+      "description": "Pôr novas funcionalidades em produção e acompanhar deployments e lançamentos."
     },
     "guidance": {
       "title": "Orientação técnica",
-      "description": "Rever código, partilhar conhecimento e ajudar colegas a tomar decisões técnicas."
+      "description": "Rever código, partilhar o que aprendi e ajudar colegas a encontrar soluções para desafios técnicos."
     }
   },
   "experience": {
@@ -55,12 +55,12 @@
     "engineerIII": {
       "dates": "Abril de 2026–presente",
       "title": "Engenheira de Software III",
-      "description": "Desenvolvo interfaces e serviços Backend-for-Frontend para produtos de broadcast profissional com React, TypeScript e GraphQL."
+      "description": "Desenvolvo interfaces e serviços Backend-for-Frontend para produtos de broadcast profissional, com React, TypeScript e GraphQL."
     },
     "engineerII": {
       "dates": "Novembro de 2024–março de 2026",
       "title": "Engenheira de Software II",
-      "description": "Trabalhei em projetos de XR e streaming sustentável, desde desenvolvimento de frontend e integrações de backend até deployments em Kubernetes."
+      "description": "Trabalhei em projetos de XR e streaming sustentável, desde funcionalidades de frontend e integrações de backend até deployments em Kubernetes."
     },
     "mog": {
       "dates": "Janeiro de 2019–outubro de 2024",
@@ -69,45 +69,45 @@
     "manager": {
       "dates": "Outubro de 2021–outubro de 2024",
       "title": "Engenheira de Software e Gestora Técnica de Projetos",
-      "description": "Desenvolvi plataformas de multimédia, educação e streaming, contribuindo também para decisões técnicas, coordenação de projetos e mentoria."
+      "description": "Desenvolvi plataformas de multimédia, educação e streaming, e também ajudei nas decisões técnicas, na coordenação dos projetos e na mentoria de colegas."
     },
     "juniorManager": {
       "dates": "Janeiro de 2020–setembro de 2021",
       "title": "Engenheira de Software e Gestora Técnica Júnior de Projetos",
-      "description": "Desenvolvi plataformas web, dashboards e marketplaces digitais no âmbito de projetos europeus de investigação."
+      "description": "Desenvolvi plataformas web, dashboards e marketplaces digitais em projetos europeus de investigação."
     },
     "junior": {
       "title": "Engenheira de Software Júnior",
-      "description": "Desenvolvi uma plataforma de mensagens em tempo real para a minha dissertação de mestrado, mais tarde integrada em projetos de investigação.",
+      "description": "Na minha dissertação de mestrado, criei uma plataforma de mensagens em tempo real que mais tarde passou a fazer parte de projetos de investigação.",
       "dates": "2019"
     }
   },
   "projects": {
     "titleStart": "PROJETOS",
     "titleEnd": "EM DESTAQUE",
-    "intro": "Educação cinematográfica, conteúdos XR e plataformas editoriais escolares.",
-    "description": "Alguns dos projetos em que trabalhei e o meu contributo em cada um.",
+    "intro": "Cinema nas salas de aula, conteúdos XR e redações escolares.",
+    "description": "Alguns projetos em que trabalhei e o que fiz em cada um.",
     "cined": {
       "subtitle": "Cinema europeu nas salas de aula",
-      "description": "Trabalhei no CinEd ao longo de vários anos, desenvolvendo funcionalidades, adaptando a plataforma para vários idiomas e migrando utilizadores da versão anterior. É uma plataforma multilingue de educação cinematográfica utilizada por mais de 3 000 pessoas em mais de 12 países.",
+      "description": "Trabalhei no CinEd durante vários anos, criando funcionalidades, adaptando a plataforma a mais idiomas e migrando os utilizadores da versão antiga para a nova. Ajuda a levar filmes às salas de aula e é usada por mais de 3 000 pessoas em mais de 12 países.",
       "alt": "Plataforma de educação cinematográfica CinEd apresentada em ecrãs sobrepostos"
     },
     "xreco": {
-      "subtitle": "Descobrir e trabalhar com conteúdos XR",
-      "description": "Fui a principal responsável pelo desenvolvimento da aplicação web central do XReco. A plataforma integrava carregamento de conteúdos, pesquisa multimodal, metadados gerados por IA, reconstrução 3D e fluxos de licenciamento.",
+      "subtitle": "Ferramentas para trabalhar com conteúdos XR",
+      "description": "Fui a principal programadora da aplicação web central do XReco. Trabalhei no upload de conteúdos, pesquisa multimodal, metadados gerados por IA, reconstrução 3D e fluxos de licenciamento.",
       "alt": "Plataforma de descoberta de conteúdos XReco apresentada em ecrãs sobrepostos"
     },
     "true": {
       "subtitle": "Uma redação para cada escola",
-      "description": "Trabalhei como programadora full-stack e coordenadora técnica no TRUE, desenvolvendo ferramentas editoriais, dashboards e fluxos de publicação para alunos e professores de mais de 200 escolas portuguesas.",
+      "description": "No TRUE, trabalhei como programadora full-stack e coordenadora técnica, criando ferramentas editoriais, dashboards e fluxos de publicação para alunos e professores de mais de 200 escolas portuguesas.",
       "alt": "Plataforma de redação e publicação escolar TRUE apresentada em ecrãs sobrepostos"
     }
   },
   "footer": {
     "titleStart": "VAMOS CRIAR",
     "titleEnd": "ALGO JUNTOS.",
-    "description": "Queres falar sobre um projeto ou uma colaboração? Gostava de saber mais sobre o que tens em mente.",
-    "pdf": "Guardar PDF",
+    "description": "Tens um projeto em mente ou achas que podíamos trabalhar juntos? Manda-me uma mensagem.",
+    "pdf": "Descarregar o meu CV",
     "alt": "Paisagem de montanha com flores alpinas ao entardecer",
     "email": "Email",
     "linkedin": "LinkedIn",

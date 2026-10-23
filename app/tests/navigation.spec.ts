@@ -52,7 +52,9 @@ test.describe("anchor navigation", () => {
 
   test("hero call to action works from the keyboard", async ({ page }) => {
     await page.goto("/");
-    const link = page.getByRole("link", { name: "Explore my work" });
+    const link = page.getByRole("link", {
+      name: "Explore my work",
+    });
     await link.focus();
     await link.press("Enter");
     await expectSectionAtHeader(page, "projects");
